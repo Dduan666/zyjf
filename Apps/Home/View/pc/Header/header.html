@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" />
+		<title>卓屹金服</title>
+		<link rel='icon' href='__PUBLIC__/zy/images/logo2017.png' type='image/x-ico' />
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/zy/layer/skin/default/layer.css"/>
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/zy/css/index.css"/>
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/zy/css/bootstrap.min.css"/>
+        <link rel="stylesheet" type="text/css" href="__PUBLIC__/zy/css/animate.min.css" />
+    	<link rel="stylesheet" type="text/css" href="__PUBLIC__/zy/css/public.css">
+    	<script src="__PUBLIC__/zy/js/jquery.js" type="text/javascript"></script>
+	    <script src="__PUBLIC__/zy/layer/layer.js" type="text/javascript"></script>
+        <!--[if lte IE 9]>
+        <script src="__PUBLIC__/zy/js/html5shiv.js" type="text/javascript"></script>
+	    <![endif]-->
+        <script src="__PUBLIC__/zy/js/xq_navbar.js" type="text/javascript"></script>
+        <!-- <link rel="stylesheet" type="text/css" href="__PUBLIC__/zy/css/jquery-ui.css"/> -->
+	    <!-- <script src="__PUBLIC__/zy/js/jquery-ui.min.js" type="text/javascript"></script> -->
+	    <script src="__PUBLIC__/zy/js/zyjf.js" type="text/javascript"></script>
+	    
+	    <!-- 手机访问PC端网站时跳到手机端 -->
+		<script src="__PUBLIC__/yidong.js" type="text/javascript"></script><script type="text/javascript">uaredirect("http://m.zhuoyijinrong.com");</script>
+		
+	</head>
+	<body>
+		<div class="ZY_tk_fixed">
+			<!-- <div class="zy_zhidian" style="display: none;"> -->
+				<div class="zy_zhidian" style="display: none;">
+					<div class="zy_zhidian_le">
+						<h4>服务咨询</h4>
+						<p class="tel">9:00-22:00</p>
+						<div class="tel">400-9100-188</div>
+					</div>
+					<div class="zhidian_ri">
+					<h4>岗位咨询</h4>
+					<p class="tel">9:00-18:00</p>
+					<div class="tel">400-9100-166</div>
+					</div>
+				</div>
+		<!-- 	</div> -->
+
+		<div class="zy_tab_ri_tabka">
+		<div class="zy_tab_ri_tabka_position"><a href="__MODULE__/Lianxi/lianxi.html" target="_blank">位置</a></div>
+			<div class="zy_tab_tabka_qie_tel" onclick="zhidian_zya(this)">致电</div>
+			<div class="zy_tab_ri_tabka_inline" onclick="zhidian_zyb(this)" id="">
+				<!-- mibew button -->
+				<a id="mibew-agent-button" href="http://101.200.216.198:8080/chat?locale=zh-cn" target="_blank" onclick="Mibew.Objects.ChatPopups['58abaedd183d638f'].open();return false;"><span>在线咨询</span></a>
+				<!-- / mibew button -->
+			</div>	
+		</div>
+		</div>
+		
+		<!--提示信息开始-->
+		<div style="height: 40px;background:#979797;" id="hz_tishiz">
+			<div id="hz_closz" onclick="close_alert()"></div>
+			<div id="hz_tsdivz">
+				<span class="zyjf_span1">温馨提示 ：谨防不法分子冒以本公司名义办理信用卡等相关业务！&nbsp;&nbsp;<a href="__MODULE__/Header/alert" target="_blank"><!--更多&gt;&gt;--></a></span>
+				<span class="element-1 zyjf_span2" style="margin-left: 60px;">咨询电话 ：400-9100-188/400-9100-166</span>
+			</div>
+		</div>
+		<!--提示信息结束-->
+		<div class="hzall">
+			<div  id="hzall">
+				<div style="width: 100%; margin: auto; z-index: 99;">
+				</div>
+				<div class="topback">
+					<div class="nav nav_zyjf nav_zyjf_shaodw">
+						<div class="serecity color_wwl" id="serecity">
+							<div class="contain_fix">
+								<div class="row_con">
+								<div class="row-top1">
+									<foreach name="ad" item="v">
+									<div>
+										<dl>
+			                                <dt><div style="cursor: default;">
+												<if condition="$v['type'] eq 1">
+													短借垫资
+												<elseif condition="$v['type'] eq 2" />
+		                                            抵押消费贷
+		                                        <elseif condition="$v['type'] eq 3" />
+		                                            经营性抵押物业
+		                                        <elseif condition="$v['type'] eq 4" />
+		                                            抵押经营贷
+		                                        <elseif condition="$v['type'] eq 5" />
+		                                            房抵净值经营贷
+		                                        <elseif condition="$v['type'] eq 6" />
+		                                            信用贷
+		                                        <elseif condition="$v['type'] eq 7" />
+		                                            房抵贷经营性收入
+		                                        <elseif condition="$v['type'] eq 8" />
+		                                            配套抵押
+												</if>
+			                                </div></dt>
+			                                <foreach name="v.c" item="vv">
+			                                	<dd><a href="{:U('Jingying/fuwuzl',array('id'=>$vv['id']))}">{$vv.product}</a></dd>
+			                                </foreach>
+                                		</dl>
+									</div>
+									</foreach>	
+								</div>
+								
+								</div>
+							</div>
+						</div>
+						<div class="contain_zz"></div>
+						<div class="waibao">
+						
+						<div class="nav_logo"><a href="{:U('Index/index')}"><img src="__PUBLIC__{$dd[0]['pic']}" alt="" /></a></div>
+					
+							<div class="menu xq_bag" id="bar1">
+							<ul id="gl xq_navbar">
+								<li class="xq_navli">
+									<a href="__MODULE__/Index/index">首页</a>
+								</li>
+								<li class="xq_navli">
+									<a href="__MODULE__/Jy/consultant">精英顾问</a>
+								</li>
+								<li class="xq_navli">
+									<a href="__MODULE__/Guanyu/about_us">关于我们</a>
+								</li>
+								<li class="fuwuzl xq_navli abcd2" onclick="xialacaidan()"><a>所有服务<!--<span class="caret"></span>--></a>
+								</li>
+								
+								
+								<li class="xq_navli">
+									<a href="__MODULE__/Ping/inline.html">在线评估</a>
+								</li>
+								 <li class="fuwuzl xq_navli abcd2"><a href="__MODULE__/Bangzhu/jisuanqi">计算器</a>
+								</li>
+								 <li class="fuwuzl xq_navli abcd2"><a href="__MODULE__/Bangzhu/gonglue">攻略问答</a>
+								</li>
+								 <li class="fuwuzl xq_navli abcd2"><a href="__MODULE__/Bangzhu/newlist">新闻资讯</a>
+								</li>
+								
+
+							</ul>
+							<div style="clear: both;"></div>
+						</div>
+
+						<div class="nav_left_dhf">
+								
+							<!--未登录时的状态-->
+							<if condition="session('auser.id') eq null">
+								<div class="zhaungtai">
+								<a href="{:U('Login/login')}" class="login_nav" target="_blank" onclick="deng()">登录</a>
+								<a href="{:U('Login/register')}" class="regi_nav" target="_blank" onclick="zhu()">注册</a>
+								</div>
+							<else />
+							<!--登录后的状态，-->
+	                            <div class="login_after_state">
+									<div class="xinxi"><?php echo session('auser.username') ?>欢迎您!</div>
+									<a href="{:U('Home/Login/loginOut')}"><div class="quit">退出</div></a>
+									
+								</div>
+
+							</if>
+							
+							<div style="clear: both;"></div>
+						</div>
+						</div>
+					</div>
+				</div>
+				<!--topback-->
+			</div>
+		</div>
+	</body>
+</html>
+
+<script type="text/javascript">
+$(function(){
+$("#bar1").xq_navbar({"type":"underline","liwidth":"auto","bgcolor":"black","hcolor":"#f0f"});
+$('.xq_move').hide()
+	});
+$('.xq_bag').hover(function(){
+	$('.xq_move').show()
+},function(){
+	$('.xq_move').hide()
+})
+
+$('.search_nav').click(function(){
+	$('#search_dhf').slideToggle(500);
+})
+
+
+</script>
+
+<!--页面跟踪-->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-85930367-2', 'auto');
+  ga('send', 'pageview');
+</script>  
+<script>
+function deng(){
+	var id = 4;
+	$.ajax({
+		type : 'post',
+		url : '{:U('Home/Flow/deng')}',
+		data : {id:id},
+		success : function(){
+
+		}
+	})
+}
+
+function zhu(){
+	var id = 5;
+	$.ajax({
+		type : 'post',
+		url : '{:U('Home/Flow/deng')}',
+		data : {id:id},
+		success : function(){
+
+		}
+	})
+}
+</script>
+<script type="text/javascript" src="http://101.200.216.198:8080/js/compiled/chat_popup.js"></script>
+<script type="text/javascript">
+Mibew.ChatPopup.init({
+	"id":"58abaedd183d638f",
+	"url":"http:\/\/101.200.216.198:8080\/chat?locale=zh-cn",
+	"preferIFrame":false,
+	"modSecurity":false,
+	"width":640,
+	"height":480,
+	"resizable":true,
+	"styleLoader":"http:\/\/101.200.216.198:8080\/chat\/style\/popup"
+});
+</script>

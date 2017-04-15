@@ -1,0 +1,129 @@
+<extend name="Index/index" />
+<!-- <include file="Index/index" /> -->
+<!-- <include file="wc/Layout/header" /> -->
+
+<block name="wrapper">
+	<!-- Content Wrapper. Contains page content -->
+    <div class="content-wrapper">
+        <!-- Content Header (Page header) -->
+        <section class="content-header">
+            <h1>
+                评估列表管理
+                <small>这是评估列表页面</small>
+            </h1>
+            <ol class="breadcrumb">
+                <li><a href="#"><i class="fa fa-dashboard"></i> 评估列表管理</a></li>
+                <li class="active">评估列表</li>
+            </ol>
+        </section>
+        
+        <!-- Main content -->
+        <section class="content">
+            <div class="row">
+            <!-- @if(session('success'))
+                <div class="alert alert-danger alert-dismissable">
+                    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                    <h4><i class="icon fa fa-ban"></i>提示 </h4>
+                    {{session('success')}}
+                </div>
+                
+            @endif -->
+                <div class="col-xs-12">
+                    <div class="box">
+                        <div class="box-header">
+                            <h3 class="box-title">评估列表</h3>
+                        </div><!-- /.box-header -->
+                        <div class="box-body">
+                            <form action="/index.php/Admin/Pg/index" method="get">
+
+                            <div class="form-group">
+                                <div class="row">
+                                    <div class="col-md-2">
+                                        <select name="num" class="form-control">
+                                            <option <if condition="$Think.get.num eq 5">selected</if> value="5">5</option>
+                                            <option <if condition="$Think.get.num eq 10">selected</if> value="10">10</option>
+                                            <option <if condition="$Think.get.num eq 20">selected</if> value="20">20</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-4 col-md-offset-6">
+                                        <div class="input-group input-group">
+                                            <input value="{$Think.get.search}" name="search" type="text" placeholder="手机号" class="form-control">
+                                            <span class="input-group-btn">
+                                              <button class="btn btn-info btn-flat" >搜索</button>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            </form>
+                            
+                            <form action="{:U('Admin/Pg/del')}" method="post">
+                         
+                            <table id="example2" class="table table-bordered table-hover">
+                                <thead>
+                                <tr>
+                                    <th>ID</th>
+                                    <th>手机号</th>
+                                    <th>所在区县</th>
+                                    <th>所在小区</th>
+                                    <th>所在楼栋</th>
+                                    <th>房屋类型</th>
+                                    <th>房产用途</th>
+                                    <th>建筑类型</th>
+                                    <th>建筑结构</th>
+                                    <th>户型结构</th>
+                                    <th>建筑形式</th>
+                                    <th>朝向</th>
+                                    <th>面积</th>
+                                    <th>所在楼层</th>
+                                    <th>总层数</th>
+                                    <th>年份</th>
+                                    <th>房产单价(元/平米)</th>
+                                    <th>时间</th>
+                                    <th>删除</th>
+
+                                </tr>
+                                </thead>
+                            <tbody>
+                            <foreach name="pg" item="value">
+                                <tr>
+                                    <!-- <td><input type="checkbox" name="like[]" value="{{$user -> id}}">{{$user -> id}}</td> -->
+                                    <td><input type="checkbox" name="like[]" value="{$value['id']}">{$value['id']}</td>
+                                   
+                                    <td>{$value['phone']}</td>
+                                    <td>{$value['cheng']}</td>
+                                    <td>{$value['xiaoqu']}</td>
+                                    <td>{$value['lou']}</td>
+                                    <td>{$value['jia']}</td>
+                                    <td>{$value['yongtu']}</td>
+                                    <td>{$value['leixing']}</td>
+                                    <td>{$value['jiegou']}</td>
+                                    <td>{$value['huxing']}</td>
+                                    <td>{$value['xingshi']}</td>
+                                    <td>{$value['chaoxiang']}</td>
+                                    <td>{$value['daxiao']}</td>
+                                    <td>{$value['cengshu']}</td>
+                                    <td>{$value['zongceng']}</td>
+                                    <td>{$value['nianfen']}</td>
+                                    <td>{$value['price']}</td>
+                                    <th>{$value['time']|date="Y年m月d日 H:i:s",###}</th>
+                                    <!-- <td><img src="{{$user -> pic}}" width="50" height="50"></td> -->
+                                    <td><a href="{:U('Admin/Pg/delete',array('id'=>$value['id']))}"><button type='button' class='btn btn-danger' name='sta[]'><i class="fa fa-trash-o"></i></button></a></td>
+                                </tr>
+                            </foreach>
+                            
+                                </tbody>
+                            </table>
+                            <input type="submit" value="批量删除">
+                            </form>
+                            <!--页码-->
+                            <div class="productPage">
+                                {$pagestr}
+                            </div>
+                        </div><!-- /.box-body -->
+                    </div><!-- /.box -->
+                </div><!-- /.col -->
+            </div><!-- /.row -->
+        </section><!-- /.content -->
+    </div>
+</block>

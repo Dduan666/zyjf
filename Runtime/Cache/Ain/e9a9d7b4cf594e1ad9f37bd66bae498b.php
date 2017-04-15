@@ -1,0 +1,77 @@
+<?php if (!defined('THINK_PATH')) exit();?>
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="/Public/zynw/css/bootstrap.min.css"/>
+		<style type="text/css">
+			body{width: 100%;height: 100%;
+				margin: 0;padding: 0;font-family: "microsoft yahei";
+			}
+			.liuyan_moren{
+				width:100%;box-sizing: border-box;
+				padding:10px 20px;border: 1px solid #D4D4D4;
+			}
+			.liuyan_title{
+				line-height: 35px;font-size: 16px;
+			}
+			.message_hui{
+				margin-bottom: 10px;
+				/*background: #D5D5D5;*/
+			}
+			.mes_title{
+				line-height: 30px;
+			}
+			.mes_border{
+				width: 100%;padding: 10px 20px;box-sizing: border-box;
+				border: 1px solid #D4D4D4;
+			}
+			.liuyan_con{
+				
+			}
+			.liuyan_con>textarea{
+				resize: none;
+				min-height: 80px;
+				width: 100%;height: 100%;border: 1px solid #D4D4D4;
+			}
+			.text_right{
+				margin-top: 20px;
+				text-align: right;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="liuyan_moren">
+			<div class="liuyan_title">
+				留言管理
+			</div>
+				<div class="message_hui">
+				<div class="mes_border">
+				<div class="mes_title">留言用户A</div>
+				<div class="liuyan_con">
+					<textarea name="" rows="" cols="">
+						
+					</textarea>
+				</div>
+				<div class="text_right"><button  class="btn btn-success">提交</button> </div>
+					
+					
+				</div>
+			</div>
+				<div class="message_hui">
+				<div class="mes_border">
+				<div class="mes_title">留言用户A</div>
+				<div class="liuyan_con">
+					<textarea name="" rows="" cols="">
+						
+					</textarea>
+				</div>
+				<div class="text_right"><button  class="btn btn-success">提交</button> </div>
+					
+					
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

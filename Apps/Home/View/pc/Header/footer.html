@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			.line{
+				width: 1422px;height: 1px;background: grey;margin:0px auto 0;
+			}
+			@media (max-width:1400px){
+				.line{
+				width: 1200px;
+			}
+			}
+		</style>
+
+	</head>
+	<body>
+		<div class="footer_dhf">
+			<div class="line"></div>
+			<div class="footer_dhf_con">
+				<div class="footer_dhf_con_left">
+					
+					<div>
+						<ul>
+							<li class="ul_li1"><a>快捷导航</a></li>
+							<li onclick="location.href='{:U('Home/Jy/consultant')}'" class="font_self">精英顾问</li>
+							<li onclick="location.href='{:U('Ping/inline')}'" class="font_self"
+>在线评估</li>
+							<li onclick="location.href='{:U('Bangzhu/gonglue')}'" class="font_self"
+>攻略问答</li>
+							<li onclick="location.href='{:U('Bangzhu/jisuanqi')}'" class="font_self"
+>贷款计算器</li>
+							
+						</ul></div>
+					<div>
+						<ul>
+							<li class="ul_li1"><a>关于我们</a></li>
+							<li onclick="location.href='{:U('Guanyu/about_us')}?id=0'" class="font_self"
+>公司简介</li>
+							<li onclick="location.href='{:U('Guanyu/about_us')}?id=1'" class="font_self"
+>公司新闻</li>
+							<!-- <li><a href="{:U('Guanyu/about_us',array('id'=>1))}">总经理致辞</a></li> -->
+							<li onclick="location.href='{:U('Guanyu/about_us')}?id=2'" class="font_self"
+>组织架构</li>
+							<li onclick="location.href='{:U('Guanyu/about_us')}?id=3'" class="font_self"
+>企业文化</li>
+							<li onclick="location.href='{:U('Guanyu/about_us')}?id=4'" class="font_self"
+>卓屹优势</li>
+							<li onclick="location.href='{:U('Guanyu/about_us')}?id=5'" class="font_self"
+>招贤纳士</li>
+						</ul>
+					</div>
+					
+					     <div>
+    <ul class="weizhi">
+       <li style="font-size: 15px;">联系我们</li>
+       <li style="font-size: 12px;">北京朝阳区东四环中路</li>
+       <li style="font-size: 12px;">嘉泰国际大厦B座1111室</li>
+       <li style="font-size: 12px;">400-9100-188</li>
+      </ul> 
+
+      
+     </div>
+				</div>
+				<div class="footer_dhf_con_right">
+					<div style="text-align: center;margin-bottom: 10px;">官方微信</div>
+					<div class="erweima_foot"></div>
+	
+				</div>
+				<div style="clear: both;"></div>
+				<div style="text-align: center;margin-top: 30px;">版权所有：北京卓屹金融服务外包有限公司&nbsp;Copyright©2013-2014&nbsp;京ICP备案16060376号-1</div>
+			</div>
+		</div>
+		</div>
+  <script type="text/javascript">
+   $(document).ready(function() {
+    var tb = new Date().getTime();
+    var te = new Date().getTime();
+    var s=setInterval(function() {
+     te = new Date().getTime();
+     if(te - tb > 1000) {
+      $('#nb_nodeboard_close').click();
+      clearInterval(s);
+     }
+    }, 200);
+   })
+  </script>
+
+<!--即时聊天接口-->
+	</body>
+</html>
+<!--页面跟踪-->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-85930367-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<script type="text/javascript" src="http://101.200.216.198:8080/js/compiled/chat_popup.js"></script>
+<script type="text/javascript">
+Mibew.ChatPopup.init({
+	"id":"58abaedd183d638f",
+	"url":"http:\/\/101.200.216.198:8080\/chat?locale=zh-cn",
+	"preferIFrame":false,
+	"modSecurity":false,
+	"width":640,
+	"height":480,
+	"resizable":true,
+	"styleLoader":"http:\/\/101.200.216.198:8080\/chat\/style\/popup"
+});
+</script>

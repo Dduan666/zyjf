@@ -1,0 +1,274 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="UTF-8">
+	<title></title>
+<!-- 	<link rel="stylesheet" type="text/css" href="__PUBLIC__/zynw/css/bootstrap.min.css"/>
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/zynw/css/b_head.css"/> -->
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/zynw/css/fengkong.css"/>
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/zynw/css/calendar.css"/>
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/zynw/css/gairili.css"/>
+    <script src="__PUBLIC__/zynw/js/jquery.js" type="text/javascript"></script>
+	<script src="__PUBLIC__/zynw/js/jquery-ui.min.js" type="text/javascript"></script>
+	</head>
+	<body>
+	
+	<!--风控的上部分-->
+		<div class="fengkBig">
+			<div class="fengkBig_left">
+
+        <div class="calander_big">
+		<div class="calendar_1">
+			<div id="demo">
+                    <div id="ca"></div>
+                   <div id="dd"></div>
+               </div>
+		</div>
+		</div>
+
+
+			</div>
+			<div class="fengkBig_right"> 
+			<div class="item item1 clearfix">
+				<div class="border_right">
+					<table class="table">
+						<tr>
+							<td>订单渠道最多</td>
+							<td class="gl_table">中信银行</td>
+						</tr>
+						<tr>
+							<td>比例</td>
+							<td class="gl_table">80%</td>
+						</tr>
+					</table>
+				</div>
+				<div >
+					<table class="table">
+						<tr>
+							<td>订单渠道最多</td>
+							<td class="gl_table">中信银行</td>
+						</tr>
+						<tr>
+							<td>比例</td>
+							<td class="gl_table">80%</td>
+						</tr>
+					</table>		
+					
+				</div>
+				
+			</div>
+			<div class="item clearfix">
+			<div class="border_right">
+				<table class="table">
+					<tr>
+						<td>订单渠道最多</td>
+						<td class="gl_table">中信银行</td>
+					</tr>
+					<tr>
+						<td>比例</td>
+						<td class="gl_table">80%</td>
+					</tr>
+				</table>
+			</div>
+			<div>
+				<table class="table">
+						<tr>
+							<td>订单渠道最多</td>
+							<td class="gl_table">中信银行</td>
+						</tr>
+						<tr>
+							<td>比例</td>
+							<td class="gl_table">80%</td>
+						</tr>
+					</table>
+			</div>	
+				
+			</div>
+			
+			
+			</div>
+		</div>
+		<div class="fengkongBsecond">
+			<div class="fengkongBsecond_left">
+			<div id="fKnav">
+   <ul class="tree">
+ <li class="nosanjiao">
+  	<span class="cpxxbg"><a href="fengkong_right_moren.html" target="right">订单状态</a></span>
+</li>
+
+
+    <li class="nosanjiao">
+  	<span class="cpxxbg"><a href="fengkong_right_fenlei.html" target="right">分类管理</a></span>
+  <!--<ul class="second_ul ">
+  	<li class="wusanjiao">ewrw</li>
+  	<li class="wusanjiao">rwer</li>
+  	</ul>-->
+  </li>
+
+   	
+  <li><span class="cpxxbg">银行产品信息变更</span>
+    <ul class="second_ul">
+    <foreach name="sel" item="v">
+      <li class="first_li"><a href="javascript:void(0);" value="{$v.id}">{$v.class}</a>
+        <ul class="show_ul fenlei_ul">
+          <foreach name="v.c" item="vv">
+          <li><a href="{:U('Feng/fengkong_right0',array('id'=>$vv['id']))}" target="right" type="1" value="{$vv.id}">{$vv.class}</a></li>
+          </foreach>
+        </ul>
+      </li>
+      </foreach>
+      
+    </ul>
+  </li>
+
+
+  <li><span class="cpxxbg">短借产品信息变更</span></li>
+
+  <li>
+  	<span class="cpxxbg">收益分析</span>
+  <ul class="second_ul ">
+  	<li class="wusanjiao">ewrw</li>
+  	<li class="wusanjiao">rwer</li>
+  	</ul>
+  </li>
+</ul>
+  </div>
+				
+			</div>
+			<div class="fengkongBsecond_right">
+			<iframe name="right" src="fengkong_right_moren.html" width="100%" height="100%"  scrolling="no" frameborder="0" id="right"></iframe>
+				
+				
+			</div>
+			
+		</div>
+		
+		
+		
+	</body>
+</html>
+<script src="__PUBLIC__/zynw/js/calendar.js" type="text/javascript"></script>
+<script>
+  //根据权限设置，无此页权限的话，即时输入URL地址也返回上一级
+    $(function(){
+      if(<?php echo session('user_business.rank') ?> != 2){
+        history.go(-1);
+      }
+    })
+</script>
+<script type="text/javascript">
+	$(function(){
+		$(".load_head").load("bhead.html")
+	})
+	</script>
+<script type="text/javascript">
+//	日历的js部分
+	$('#ca').calendar({
+        width: 320,
+        height: 320,
+        data: [
+			{
+			  date: '2015/12/24',
+			  value: 'Christmas Eve'
+			},
+			{
+			  date: '2015/12/25',
+			  value: 'Merry Christmas'
+			},
+			{
+			  date: '2016/01/01',
+			  value: 'Happy New Year'
+			}
+		],
+        onSelected: function (view, date, data) {
+            console.log('view:' + view)
+            alert('date:' + date)
+            console.log('data:' + (data || 'None'));
+        }
+    });
+
+    $('#dd').calendar({
+        trigger: '#dt',
+        zIndex: 999,
+		format: 'yyyy-mm-dd',
+        onSelected: function (view, date, data) {
+            console.log('event: onSelected')
+        },
+        onClose: function (view, date, data) {
+            console.log('event: onClose')
+            console.log('view:' + view)
+            console.log('date:' + date)
+            console.log('data:' + (data || 'None'));
+        }
+    });
+
+</script>
+<script type="text/javascript">
+	//	左侧的nav部分
+$(function(){
+	  $(".second_ul").hide();
+	$('.second_ul>li').addClass("tree-closed");
+    $(".tree>li").not('.nosanjiao').addClass("tree-closed");
+  
+})
+
+$(".tree").on("click","li",function(){
+	$(this).find('.second_ul').slideToggle();
+	$(this).siblings().find(".second_ul").slideUp()
+	$(".tree>li>ul>li>ul>li").find('a').removeClass('wl_active');
+})
+	$(".tree>li>ul").on("click","li",function(e){
+		e.stopPropagation();
+		$(this).find('ul').slideToggle();
+		$(this).siblings().find("ul").slideUp()
+		$(this).toggleClass("tree-opened").siblings().removeClass('tree-opened')
+	})
+	$(".tree>li>ul>li>ul").on("click","li",function(e){
+		e.stopPropagation();
+		$(".tree>li>ul>li>ul>li").find('a').removeClass('wl_active');
+		$(this).find('a').addClass('wl_active');
+	})
+	
+	
+	
+	//	iframe的高度自适应部分
+//function setIframeHeight(iframe) {
+//if (iframe) {
+//var iframeWin = iframe.contentWindow || iframe.contentDocument.parentWindow;
+//if (iframeWin.document.body) {
+//iframe.height = iframeWin.document.documentElement.scrollHeight || iframeWin.document.body.scrollHeight;
+//}
+//}
+//};
+//
+//window.onload = function () {
+//setIframeHeight(document.getElementById('right'));
+//};
+
+$(function(){
+	 var frame = document.getElementById("right")
+    var _reSetIframe = function(){
+        try {
+            var frameContent = frame.contentWindow.document,
+bodyHeight = Math.max(frameContent.body.scrollHeight,frameContent.documentElement.scrollHeight);
+            if (bodyHeight != frame.height){
+                frame.height = bodyHeight;
+            }
+        }
+        catch(ex) {
+        	console.log(bodyHeight)
+            frame.height = 500;
+        }
+    }
+    if(frame.addEventListener){
+        frame.addEventListener("load",function(){setInterval(_reSetIframe,200);},false);
+    }else{
+        frame.attachEvent("onload",function(){setInterval(_reSetIframe,200);});
+    }
+});
+
+//	iframe的高度自适应部分
+
+
+</script>

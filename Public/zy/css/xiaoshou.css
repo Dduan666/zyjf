@@ -1,0 +1,192 @@
+@charset "utf-8";
+/*框架预览 CSS*/
+.mkeBody{ background:#121212;}
+.mkeHeadBox{ padding: 30px 10px; text-overflow: ellipsis; white-space: nowrap; margin: 0; color: #fff; text-align: center; overflow: hidden; border-bottom: 3px solid #666; box-shadow: inset 0 -2px 3px #000000; letter-spacing: 1px; font: 26px/26px "微软雅黑"; }
+.mkeFooterBox{ padding: 25px 10px; text-overflow: ellipsis; margin: 0; color: #fff; font-size: 14px; line-height: 24px; text-align: center; overflow: hidden; border-top: 3px solid #666; box-shadow: inset 0 2px 3px #000000; }
+.mkeContentBox{ background:#fff; padding:50px 0 50px 0}
+.mkeContentBox:after{height:0; clear:both;}
+.mkeFooterBox p,.mkeFooterBox div{padding:0; margin:0; line-height:26px; font-size:14px;}
+.mkeFooterBox a{color:#fff; white-space:nowrap}
+.mkeButton{background:#F36; display:inline-block; text-decoration:none; width:102px; border-radius:0.3em; transition:all 0.3s ease}
+.mkeButton:hover{ background: #FF1550; }
+.mkeURL{font-size:24px;}
+.mkeFooterBox .mKeBannerAD{ width: 728px; height: 90px; margin: 18px auto 0; }
+.mkeFooterBox .mSmallKeBannerAD{display:none;}
+@media only screen and (max-width:900px){
+.mkeButton {display:block; margin:8px auto 0;}
+}
+@media only screen and (max-width:767px){
+.mkeHeadBox{font-size:18px; padding:15px 10px;}
+.mkeFooterBox p,.mkeFooterBox div{ line-height:24px; font-size:12px;}
+.mkeURL{font-size:22px;}
+.mkeFooterBox .mKeBannerAD{display:none;}
+.mkeFooterBox .mSmallKeBannerAD{width:300px; height:250px; margin:18px auto 0; display:block;}
+}
+/*End*/
+
+/*主要CSS*/
+body {
+    color: #888;
+    font-size: 18px;
+    line-height: 1.4;
+    -webkit-font-smoothing: antialiased;
+    background: #f3f3f3;
+}
+.features-container {
+    position: relative;
+    height: 490px; 
+}
+
+.carousel {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.carousel-control {
+    position: absolute;
+    width: 80px;
+    color: #000;
+    background: none !important;   
+}
+.carousel-control.left {
+    left: -80px;
+}
+.carousel-control.right {
+    right: -80px;
+}
+.carousel .carousel-inner,
+.carousel .item,
+.carousel .content {
+    height: 100%;
+}
+
+.close-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50px;
+    height: 40px;
+    line-height: 40px;
+    color: #000;
+    font-weight: bold;
+    text-align: center;
+    background: #00d7b2;
+}
+.content-green .close-btn {
+    background: #fff;   
+}
+.close-btn:hover {
+    background: #494b52;
+    color: #fff;   
+}
+
+.content {
+    padding: 30px;
+}
+.content h2 {
+    font-size: 28px;
+    margin: 0 0 5px;
+}
+.content-green {
+    background: #00d7b2;   
+}
+.content-green h2 {
+    color: #fff;
+}
+.content-yellow {
+    background: #ffcb4a;   
+}
+.content-yellow h2 {
+    color: #333;
+}
+.content-white {
+    background: #fff;
+}
+.content-white h2 {
+    color: #333;
+}
+.content-grey {
+    background: #494b52;
+}
+.content-grey h2 {
+    color: #fff;
+}
+.content-grey p {
+    color: #999;
+}
+.content-red {
+    background: #ff5a55;
+}
+.content-red h2 {
+    color: #fff;
+}
+.content-red p {
+    color: #fff;
+}
+.content-white-green {
+    background: #fff;
+}
+.content-white-green h2 {
+    color: #00d7b2;
+}
+
+.grid > :first-child {
+    margin-bottom: 30px;   
+}
+.grid .row > * {
+    position: static;
+}
+.grid .content {
+    height: 230px;
+    cursor: pointer;
+    overflow: hidden;
+}
+.grid img {
+    float: right;
+    margin: 0 -50px 0 0;
+       
+}
+.grid .content.animate {
+    transition: all 0.4s ease;
+}
+.grid .content.active {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.feature-img {
+    float: right;
+    margin: -30px -30px 0 30px;
+    width: calc(50% + 30px);
+    height: 490px;
+}
+
+@media (max-width: 992px) {
+    .grid img {
+        display: none;
+    }
+}
+@media (max-width: 768px) {
+    .features-container {
+        height: 390px; 
+    }
+    .row > div {
+        padding: 5px;
+    }
+    .grid .content {
+        padding: 15px;
+        height: 180px;
+    }
+    .content h2 {
+        font-size: 18px;
+    }
+    .content p {
+        font-size: 14px;
+    }
+    .feature-img {
+        height: 390px; 
+    }
+}

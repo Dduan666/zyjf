@@ -1,0 +1,247 @@
+
+.zhuoyidai {
+	width: 100%;
+	height: auto;
+	font-weight: 20px;
+	
+}
+
+.zhuoyidai_con {
+	width: 1200px;
+	height: auto;
+	margin: 0 auto;
+	padding: 20px 50px;
+}
+.xf_title_1{
+	font-size:24px;
+	text-align: center;line-height: 50px;font-weight: 900!important;
+}
+.XF-toubu {
+	font-size:16px;font-weight: 600;
+	width: 1000px;margin: 0 auto ;
+	height: 35px;
+	line-height: 35px;
+}
+
+.XF-toubu>a {
+	text-decoration: none;
+	color: #333333;
+}
+
+.XF_child_one_left {
+	float: left;
+	padding: 20px 50px;
+	width: 1100px;
+}
+
+
+/*边框问题*/
+
+.XF_child_one_left .table tr>td {
+	border: none;
+}
+
+.table_bor {
+	font-size:15px;
+}
+
+.xf_table_tog {
+	font-size:15px;
+
+}
+.biaoti_dhf{font-size:17px;font-weight: 600;
+	
+	width: 140px;
+}
+.biaoti_dhf_2{font-size:17px;font-weight: 600;
+
+	width: 140px;
+}
+
+/*边框问题*/
+.waibao_dhf{padding: 20px 20px;margin-bottom: 20px;
+box-shadow: 0 0 10px rgb(204, 204, 204);	background: #FFFFFF;
+}
+.XF_child_one_right {
+	box-shadow: 0 0 10px rgb(204, 204, 204);
+	float: right;
+	padding: 0 0px;
+	width: 0px;
+}
+.xf_table_tog {
+/*	border: 1px solid #DDDDDD;*/
+}
+.xf_down_up {
+	cursor: pointer;
+	width: 40px;
+	height: 40px;
+	margin: 20px auto;
+	/*border: 1px solid;*/
+}
+.xf_down_up_cen {
+	overflow: hidden;
+	width: 40px;
+	height: 38px;
+/*	margin: 5px auto;*/
+}
+
+.xf_tubiao_down_up {
+	float: left;
+	transition: all 1s;
+	font-size: 26px;
+	width:40px;
+	height: 32px;
+	margin-left: 5px;
+}
+
+.xf_tubiao_down_up>img {
+	width: 100%;
+	height: 100%;
+}
+
+.xf_tubiao_ro {
+	transform: rotateZ(180deg);
+}
+
+.xf_wenzi_down_up {
+	line-height: 35px;
+	float: left;
+	margin-left: 20px;
+	color: #009edd;
+}
+
+.xf_table_tog {
+	display: none;
+}
+
+.xiaofeidai_jisuan {
+	width: 100%;
+	height: auto;
+	font-weight: 600;
+	font-family:'youyuanregular'!important ;
+}
+
+.xiaofeidai_jisuan>h2 {
+	color:#5d5d5d;
+	text-align: center;
+}
+.xiaofeidai_jisuan>.small_title{
+	font-size: 20px;
+	color:#949796;text-align: center;
+	}
+.xf_1_jsq {
+	width:490px;
+	margin: 20px auto 0;
+	height: 50px;
+}
+
+.xf_1_jsq>div {
+	font-size: 22px;
+
+	height: 100%;
+	line-height:50px ;
+}
+.loan_money{
+		float: left;
+	width: 65%;
+}
+.loan_money1{
+	float: right;
+	width:35%;
+}
+.xf_alert {
+	display: none;
+	color: red;
+	text-align: center;
+}
+
+.bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn){ 
+	width:120px!important;height:40px!important;}
+.xf_1_jsq>div>input {
+	line-height: 35px;
+	height:35px;
+	border: 1px solid #DDDDDF;
+	width:70%;
+	font-size: 16px;
+	border-radius: 6px;-moz-border-radius:6px;
+	-webkit-border-radius:6px;padding-left:10px;
+}
+
+.xf_1_jsq select {
+	border: 1px solid #DDDDDF;
+	width: 60%;
+	height: 40px;
+}
+
+.XF_jisuan {
+	cursor: pointer;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 50px;
+	font-size: 21px;
+	width: 150px;
+	height: 50px;
+	background:#2cb5cd;
+	border-radius:25px;
+	-moz-border-radius:25px;
+	-webkit-border-radius:25px;
+	margin: 20px auto;
+	transition:all 0.5s;
+}
+
+.XF_jisuan:hover {
+	box-shadow: 0px 3px 3px dimgray;
+}
+.shenyue{
+line-height: 30px;font-weight: bold;
+}
+.zhidian{
+	font-size: 23px;font-weight: bold;
+}
+.XF_result {
+	display: none;
+	text-align: center;
+	width: 100%;
+	font-family:'youyuanregular'!important ;
+	/*border: 1px solid;*/
+}
+
+.XF1-YUYUE {
+	cursor: pointer;background:#2cb5cd;border-radius: 25px;-webkit-border-radius:25px;-moz-border-radius: 25px;transition:all 0.5s;width:150px;height: 50px;margin: 10px auto;color:white;font-size: 22px;text-align: center;border: none;
+	line-height: 50px;
+}
+
+.XF1-YUYUE:hover {
+	border: 1px solid #2cb5cd;
+	box-shadow: 0px 3px 3px dimgray;
+}
+
+.green_h {
+	color: green!important;
+}
+
+.loading_a {
+	top: 0px;
+	left: 0px;
+	display: none;
+	z-index: 101;
+	position: absolute;
+	width: 1920px;
+	height: auto;
+	opacity: 0.8;
+	filter: alpha(opacity=80);
+	margin: auto auto;
+}
+.loading_img {
+	left: 50%;
+	margin-left: -62px;
+	margin-top: -62px;
+	width: 124px;
+	height: 124px;
+	position: absolute;
+	top: 50%;
+}
+.loading_img>img {
+	height: 100%;
+	width: 100%;
+}

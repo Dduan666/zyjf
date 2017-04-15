@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" />
+		<title>【卓屹金服】</title>
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/zy/css/con_gai.css"/>
+	</head>
+	<body>
+		<div class="load_head"></div>
+
+		<div class="consultant">
+			<div class="consultant_con">
+				<div class="looking_top">
+					<div class="current-position1">
+						<!-- <a href="{:U('Index/index')}">卓屹金服</a><span> > </span>精英顾问</div> -->
+				</div>
+				<!--*************************-->
+				<div class="zhaopin"><img src="__PUBLIC__{$aa[0]['pic']}"/></div>
+				<div class="zy_consultant">
+					<div class="zhanpin_leix">
+						<div class="zhanpin_title">产品类型</div>
+						<div class="zhanpin_lieb">
+							<ul class="chanpin_gl">
+								<li <if condition="$business eq 0">class="sex_gl"</if> onclick="location.href='{:U('Jy/consultant')}?sex={$sex}&business=0'">不限</li>
+								<li <if condition="$business eq 1">class="sex_gl"</if> onclick="location.href='{:U('Jy/consultant')}?sex={$sex}&business=1'">标准经营贷款</li>
+								<li <if condition="$business eq 2">class="sex_gl"</if> onclick="location.href='{:U('Jy/consultant')}?sex={$sex}&business=2'">标准消费贷款</li>
+								<li <if condition="$business eq 3">class="sex_gl"</if> onclick="location.href='{:U('Jy/consultant')}?sex={$sex}&business=3'">短期贷款</li>
+								<li <if condition="$business eq 4">class="sex_gl"</if> onclick="location.href='{:U('Jy/consultant')}?sex={$sex}&business=4'">消费贷款</li>
+							</ul>
+						</div>
+					</div>
+					<div class="zhanpin_sex">
+						<div class="zhanpin_title">性别</div>
+						<div class="zhanpin_sexb">
+							<ul class="xingbie_gl">
+							<li <if condition="$sex eq 0">class="sex_gl"</if> onclick="location.href='{:U('Jy/consultant')}?business={$business}&sex=0'">
+								不限</li>
+								<li <if condition="$sex eq 1">class="sex_gl"</if> onclick="location.href='{:U('Jy/consultant')}?business={$business}&sex=1'">
+								男</li>
+								<li <if condition="$sex eq 2">class="sex_gl"</if> onclick="location.href='{:U('Jy/consultant')}?business={$business}&sex=2'">
+								女</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="title_daikuan">精英顾问:</div>
+				<!--以下写人物展示，有分页效果，一页展示8个 先写出一个布局，后期从数据库循环取出*-->
+				<div class="zhanshi_renwu">
+					<foreach name="res" item="v">
+					
+					<div class="zhanshi_renwu_zy">
+						<div class="renwu_picture"><img src="__PUBLIC__{$v['pic']}" /></div>
+						<div class="renwu_intro">
+							<div class="renwu_name">
+								<span class="renwu_ming">{$v['vname']}</span>
+							</div>
+			
+							<div class="renwu_yewu">
+								<span class="renwu_yewu_span1">成交额度：</span>
+								<span >{$v['money']}</span><span>万</span>
+							</div>
+
+							<div class="renwu_yewu">
+								<span class="renwu_yewu_span1">擅长业务：</span>
+								<span class="renwu_yewu_span2">
+								{$v[business]}
+								</span>
+							</div>
+
+							<div class="renwu_yewu" style="margin-top: 20px;">
+								<span class="renwu_yewu_span3">服务评级：</span>
+								<span class="renwu_yewu_span2">
+								<if condition="$v.grade eq null">
+									<img src="__PUBLIC__/zy/img/grade1.png" alt="" />
+								<elseif condition="$v.grade elt 20" />
+									<img src="__PUBLIC__/zy/img/grade5.png" alt="" />
+								<elseif condition="$v.grade gt 20 && $v.grade elt 45" />
+									<img src="__PUBLIC__/zy/img/grade4(1).png" alt="" />
+								<elseif condition="$v.grade gt 45 && $v.grade elt 60" />
+									<img src="__PUBLIC__/zy/img/grade3(2).png" alt="" />
+								<elseif condition="$v.grade gt 60 && $v.grade elt 85" />
+									<img src="__PUBLIC__/zy/img/grade2.png" alt="" />
+								<elseif condition="$v.grade gt 85 && $v.grade elt 100" />
+									<img src="__PUBLIC__/zy/img/grade1.png" alt="" />	
+								</if>
+								</span>
+							</div>
+
+
+						</div>
+					
+						<div class="renwu_go">
+							<!--<a href="{:U('Jy/consultant_2',array('id'=>$v['id']))}" target="_blank" class="link-sq a_hover">
+								<span class="link-span">向我申请>></span>
+							</a>-->
+						<a class="link-sq" href="{:U('Jy/consultant_2',array('id'=>$v['id']))}" target="_blank"><img src="__PUBLIC__/zy/img/lianxia.png"/></a>
+							<a id="mibew-agent-button" href="http://101.200.216.198:8080/chat?locale=zh-cn" target="_blank" onclick="Mibew.Objects.ChatPopups['58abaedd183d638f'].open();return false;"><img src="__PUBLIC__/zy/img/chaat.png"/>
+							</a>
+						</div>
+					</div>
+				</foreach>
+					
+				</div>
+				
+				<div class="productPage">
+                                {$pagestr}
+                            </div>
+				<!--找顾问***********-->
+			</div>
+		</div>
+	</body>
+
+</html>
+
+<script src="__PUBLIC__/zy/js/zyjf.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+	$('.xingbie_gl').on('click', 'li', function() {
+		$('.xingbie_gl>li').removeClass('sex_gl');
+		$(this).addClass('sex_gl');
+		
+		
+	});
+	$('.chanpin_gl').on('click', 'li', function() {
+		$('.chanpin_gl>li').removeClass('sex_gl');
+		$(this).addClass('sex_gl');
+	});
+
+
+
+</script>
+
+<!--页面跟踪-->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-85930367-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<script>
+	//统计浏览本精英顾问页面的次数，每次进入或刷新本页面，浏览量+1
+	$(function(){
+		var id = 2;
+		$.ajax({
+			type : 'post',
+			url : '{:U('Home/Flow/gu')}',
+			data : {id:id},
+			success : function(data){
+				if(data){
+					$(document).ready(function() {
+					    setInterval(function() {
+					    	var did = data;
+					        $.ajax({
+					            url : '{:U('Home/Flow/index')}',
+					            async: false ,
+					            type : 'post',
+					            data : {id:did},
+					            success: function(msg) {
+					                
+					            }
+					        });
+					    }, 3000);
+					});
+				}
+			}
+		});
+	})
+</script>

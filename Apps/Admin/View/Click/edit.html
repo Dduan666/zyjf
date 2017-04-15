@@ -1,0 +1,122 @@
+<!-- <extend name="Index/index" /> -->
+<include file="Index/index" />
+<block name="wrapper">
+
+    <div class="content-wrapper">
+        <!-- Content Header (Page header) -->
+        <section class="content-header">
+            <h1>
+                评价修改
+                <small>这是后台的精英评价修改页面</small>
+            </h1>
+            <ol class="breadcrumb">
+                <li><a href="#"><i class="fa fa-dashboard"></i> 评价管理</a></li>
+                <li class="active">评价修改</li>
+            </ol>
+        </section>
+        
+        <!-- Main content -->
+        <section class="content">
+       
+            <div class="row">
+                <!-- left column -->
+                <div class="col-md-12">
+                    <!-- general form elements -->
+                    <div class="box box-primary">
+                        <div class="box-header with-border">
+                            <h3 class="box-title">评价修改</h3>
+                        </div><!-- /.box-header -->
+                        <!-- form start -->
+                        
+                        <form role="form" action="{:U('Admin/Click/update')}" method="post" enctype="multipart/form-data" name="form11">
+
+                        
+
+                        <input type="hidden" value="{$data['id']}" name="id">
+                            <div class="box-body">
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">被评价精英姓名</label>
+                                    <input type="text" name="vname" class="form-control" value="{$data['vname']}" id="exampleInputEmail1"
+                                           placeholder="请输入点击数" readOnly="true" disabled="true" style="background:#CCCCCC">
+                                    <!-- <select name="vname" class="form-control" id="exampleInputEmail1">
+                                        <option value="{$value['uid']}">{$value['vname']}</option>
+                                        <foreach name="data" item="value">
+                                            <option value="{$value['uid']}">{$value['vname']}</option>
+                                        </foreach> 
+                                    </select> -->
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">满意</label>
+                                    <input type="text" name="oclick" class="form-control" value="{$data['oclick']}" id="oclick"
+                                           placeholder="请输入点击数">
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">一般</label>
+                                    <input type="text" name="tclick" class="form-control" value="{$data['tclick']}" id="tclick"
+                                           placeholder="请输入点击数">
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputPassword1">不满意</label>
+                                    <input type="text" name="sclick" class="form-control" value="{$data['sclick']}" id="sclick"
+                                           placeholder="请输入点击数">
+                                </div>
+                                <!-- <div class="form-group">
+                                    <label for="exampleInputEmail1">状态</label>
+                                    <select name="status" class="form-control" id="exampleInputEmail1"  >
+                                        <option value="1" <if condition="strtoupper($data['status']) eq '1'">selected</if>>启用</option>
+                                        <option value="0" <if condition="strtoupper($data['status']) eq '0'">selected</if>>禁用</option>
+                                    </select>
+                                </div> -->
+                            </div><!-- /.box-body -->
+                        
+                            <div class="box-footer">
+                                <button type="submit" class="btn btn-primary">更改</button>
+                                <button type="reset" class="btn btn-primary">重置</button>
+                            </div>
+                        </form>
+                    </div><!-- /.box -->
+                </div><!--/.col (left) -->
+                <!-- right column -->
+                <div class="col-md-6">   
+                </div><!--/.col (right) -->
+            </div>   <!-- /.row -->
+        </section><!-- /.content -->
+    </div>
+<script type="text/javascript" src="__PUBLIC__/bootstrap/js/jquery.validation/1.14.0/jquery.validate.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/bootstrap/js/jquery.validation/1.14.0/validate-methods.js"></script>
+<script type="text/javascript" src="__PUBLIC__/bootstrap/js/jquery.validation/1.14.0/messages_zh.min.js"></script>
+<script type="text/javascript">
+    $("form[name=form11]").validate({
+    
+        rules:{
+            oclick:{
+                required:true,
+                digits:true,
+            },
+            tclick:{
+                required:true,
+                digits:true,
+            },
+            sclick:{
+                required:true,
+                digits:true,
+            },
+        },
+
+        messages:{
+            oclick:{
+                required:"满意人数可为'0'不能为空",
+                digits:"必须输入整数",
+            },
+            tclick:{
+                required:"一般满意人数可为'0'不能为空",
+                digits:"必须输入整数",
+            },
+            sclick:{
+                required:"不满意人数可为'0'不能为空",
+                digits:"必须输入整数",
+            },
+        }
+    });
+</script>
+</block>

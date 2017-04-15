@@ -1,0 +1,90 @@
+<extend name="Index/index" />
+<!-- <include file="Index/index" /> -->
+<!-- <include file="wc/Layout/header" /> -->
+
+<block name="wrapper">
+	<!-- Content Wrapper. Contains page content -->
+    <div class="content-wrapper">
+        <!-- Content Header (Page header) -->
+        <section class="content-header">
+            <h1>
+                友情链接列表管理
+                <small>这是友情链接页面</small>
+            </h1>
+            <ol class="breadcrumb">
+                <li><a href="#"><i class="fa fa-dashboard"></i> 友情链接管理</a></li>
+                <li class="active">友情链接列表</li>
+            </ol>
+        </section>
+        
+        <!-- Main content -->
+        <section class="content">
+            <div class="row">
+            
+                <div class="col-xs-12">
+                    <div class="box">
+                        <div class="box-header">
+                            <h3 class="box-title">链接列表</h3>
+                        </div><!-- /.box-header -->
+                        <div class="box-body">
+                            <form action="/index.php/Admin/Links/index" method="get">
+
+                            <div class="form-group">
+                                <div class="row">
+                                    <div class="col-md-2">
+                                        <select name="num" class="form-control">
+                                            <option <if condition="$Think.get.num eq 5">selected</if> value="5">5</option>
+                                            <option <if condition="$Think.get.num eq 10">selected</if> value="10">10</option>
+                                            <option <if condition="$Think.get.num eq 20">selected</if> value="20">20</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-4 col-md-offset-6">
+                                        <div class="input-group input-group">
+                                            <input value="{$Think.get.search}" name="search" type="text" class="form-control">
+                                            <span class="input-group-btn">
+                                              <button class="btn btn-info btn-flat" >搜索</button>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            </form>
+                            
+                            <form action="{:U('Admin/Links/del')}" method="post">
+                         
+                            <table id="example2" class="table table-bordered table-hover">
+                                <thead>
+                                <tr>
+                                    <th>ID</th>
+                                    <th>友情链接名称</th>
+                                    <th>友情链接地址</th>
+                                    <th>修改 | 删除</th>
+
+                                </tr>
+                                </thead>
+                            <tbody>
+                            <foreach name="links" item="value">
+                                <tr>
+                                    <!-- <td><input type="checkbox" name="like[]" value="{{$user -> id}}">{{$user -> id}}</td> -->
+                                    <td><input type="checkbox" name="like[]" value="{$value['id']}">{$value['id']}</td>
+                                    <td>{$value['blogroll']}</td>
+                                    <td>{$value['url']}</td>
+                                    <td><a href="{:U('Admin/Links/edit',array('id'=>$value['id']))}"><button type='button' class='btn btn-success' name='sta[]'><i class="fa fa-edit"></i></button></a> <a href="{:U('Admin/Links/delete',array('id'=>$value['id']))}"><button type='button' class='btn btn-danger' name='sta[]'><i class="fa fa-trash-o"></i></button></a></td>
+                                </tr>
+                            </foreach>
+                            
+                                </tbody>
+                            </table>
+                            <input type="submit" value="批量删除">
+                            </form>
+                            <!--页码-->
+                            <div class="productPage">
+                                {$pagestr}
+                            </div>
+                        </div><!-- /.box-body -->
+                    </div><!-- /.box -->
+                </div><!-- /.col -->
+            </div><!-- /.row -->
+        </section><!-- /.content -->
+    </div>
+</block>

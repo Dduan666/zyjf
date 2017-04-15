@@ -1,0 +1,295 @@
+html{
+	font-family: "microsoft yahei";
+}
+body{
+	margin: 0;padding: 0;
+}
+ul{
+	margin: 0;padding: 0;
+}
+ul, ol, li {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+label{
+	font-weight: normal!important;font-size: 15px;
+}
+.clearfix:after{
+	display: block;
+	content: " ";
+	clear: both;
+}
+/*add=副主题部*/
+.fu_contain{
+	width: 100%;padding: 10px;box-sizing: border-box;
+    display: flex;display: -webkit-flex;height: 270px;
+}
+.fu_contain_left{
+	width:330px;height: 250px;
+	box-shadow: 0 0 8px grey;
+}
+.fu_contain_right{
+	margin-left: 30px;
+	flex: 1;height: 250px;
+	box-shadow: 0 0 8px grey;
+}
+
+.current_alert{
+	padding: 10px;
+	
+}
+.current_alert>.title{
+	line-height: 40px;font-size: 18px;
+}
+.current_alert>.curent{
+border: 1px solid #D4D4D4;height: 100px;	
+}
+/*add=zhu主题部*/
+.zhu_contain{
+width: 100%;padding: 10px;box-sizing: border-box;
+display: flex;display: -webkit-flex;
+margin-top: 20px;
+}
+.zhu_contain_left{
+	width:330px;
+}
+.zhu_contain_right{
+	flex: 1;margin-left: 30px;
+}
+
+
+/*副主题的左部分*/
+.list_detali{
+	width: 100%;height:250px ;border: 1px solid #DDDDDD;
+}
+.yuyue_list{
+	padding: 0 10px;height: 100%;
+}
+.yuyue_list .tltle{
+	color: #333333;font-size: 18px;line-height: 30px;
+}
+.yuyue_list table td{
+	text-align: center;
+	vertical-align: middle!important;
+}
+/*副主题的右部分*/
+.personal_details{
+	height: 250px;box-sizing: border-box;	
+}
+.personal_details_con{
+height: 250px;box-sizing: border-box;
+border: 1px solid #DDDDDD;	
+}
+.icon_top{
+	overflow: hidden;
+	border: 1px solid #DDDDDD;
+	border-top:none;box-sizing: border-box;
+}
+.icon_top>div{
+	height:170px;
+float: left;width: 50%;box-sizing: border-box;
+}
+.icon_top_one{
+	padding: 10px 20px;
+	display: flex;
+	display: -webkit-flex;
+	border-right: 1px solid #DDDDDD;
+
+}
+.header_img{
+	margin-right: 30px;
+	width:120px;height: 120px;
+}
+.header_img>img{
+	width: 100%;height: 100%;border-radius: 50%;
+}
+.icon_top_two>div{
+	line-height: 28px;
+	
+}
+.icon_top_two>.title{
+	margin-top: 20px;
+}
+.icon_top_two>.wszl{
+	transition: all 0.5s;
+	transform-origin:50% 50%;
+	color: #337ab7;
+	cursor: pointer;font-size: 14px;
+}
+.icon_top_two>.wszl:hover{
+	font-size: 16px;
+}
+.icon_top_three span{
+	color: #0066cc;font-size:20px;
+}
+.icon_top_three>div{
+	height: 50%;text-align: center;
+	line-height:85px;
+}
+.icon_top_three_one{
+	box-sizing: border-box;
+	border-bottom: 1px solid #DDDDDD;
+}
+.top_bottom{height:50px;margin-top: 20px;
+display: flex;display: -webkit-flex;
+justify-content: space-around;
+}
+#button_save,#case_zhuan{
+	text-align: center;
+	border: 2px solid transparent;
+	cursor: pointer;
+	line-height: 50px;background: #14AEB4;
+    display:block;color: #FFFFFF;
+	width:48%;border: none;	float: left;box-sizing: border-box;opacity: 0.8;
+    filter: alpha(opacity=80);
+}
+#button_save:hover{
+	opacity: 1;filter: alpha(opacity=100);
+}
+#case_zhuan:hover{
+	opacity: 1;filter: alpha(opacity=100);
+}
+/*主体的左部分*/
+.zhuti_left{
+	padding: 20px 10px;border:1px solid #DDDDDD;
+}
+.calander_big{
+	width: 100%;
+}
+.shouye_title{
+	font-size: 20px;line-height: 30px;
+}
+.calendar_1{
+	height: 320px;
+	/*border: 1px solid #CDCDCD;;*/
+}
+
+
+.zhuti_left_nav{
+	width: 100%;
+}
+/*主体左部分的树结构的的css*/
+.treemenu .toggler:before {
+    display: inline-block;
+    margin-right: 2px;
+}
+
+li.tree-empty{ color: #aaa; }
+.second_ul>li{
+	position: relative;transition: all 0.5s;
+}
+
+li.tree-closed:before { 
+  content:"";
+  position:absolute;
+  top:11px;
+  left:-2px;
+  width:0px;
+  height:0px;
+  border:5px solid transparent;
+  border-left-color:#333333;
+}
+li.tree-opened:before { /*content: "-"; color: #333333;*/
+  content:"";
+  position:absolute;
+  top:14px;
+  left:-2px;
+  width:0px;
+  height:0px;
+  border:5px solid transparent;
+  border-top-color:#333333;
+
+}
+.wusanjiao:before{
+	content:""!important;
+}
+.cpxxbg{
+	font-size: 18px;
+	color: #333333;
+}
+.tree li,
+.tree li > a,   
+.tree li > span {
+	cursor: pointer;
+    padding: 4pt;position: relative;
+}
+.second_ul{
+margin-left: 10px!important;
+}
+.second_ul ul{
+	margin-left: 20px;
+}
+.tree li a {
+   color: #333333;
+    text-decoration: none;
+    line-height: 20px;
+    border-radius: 4px;
+}
+
+.active {
+    color:#cc9e2c!important;
+}
+
+.active a {
+     color:#cc9e2c!important;
+}
+
+.second_ul ul a:hover{
+  color:#cc9e2c!important;
+}
+ .wl_active{
+ color:#cc9e2c!important;
+ }
+ 
+ .tree>li>ul>li>ul{
+ 	display: none;
+ }
+ 
+/*修改密码的css*/
+.xiou{margin: 10px 0;
+	width: 100%;height: 40px;line-height: 40px;
+}
+.xiou input{
+	height: 30px;
+}
+.xiou label{
+width: 90px;
+}
+/*资料完善css*/
+
+.sex{
+	width: 40px;margin-left:10px ;
+}
+.wansha input[type="text"]{
+	width:170px;
+}
+.wansha select{
+	width:170px;
+}
+.big_div>div{float: left; text-align: center;line-height: 30px;width:120px; height: 30px; border: 1px solid; border-radius: 5px;margin: 10px 10px;
+		}
+		.big_div{width:auto; height:100px;}	
+		.big_div2{width:auto; height:30px;cursor: pointer;}	
+		.div1{float: left; text-align: center;line-height: 30px;width:120px; height: 30px; border: 1px solid; border-radius: 5px;margin:0px 10px;cursor: pointer;
+		}
+		.big_div>div:hover{
+			background: #CCCCFF;cursor: pointer;
+		}	
+		.big_div2>div:hover{
+			background: #CCCCFF;cursor: pointe   r;
+		}
+.box_img{
+	width: 160px;height: 160px;border: 1px solid;margin: 0 auto;
+}
+
+/*撰写案例的css*/
+#xinWan,#dialog_confirm1{
+	font-weight: normal!important;font-size: 15px;
+}
+#an_title{
+	width: 760px;height: 30px;line-height: 30px;
+}
+#in1{
+	width: 760px;height: 100px;
+}

@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/zy/css/help_center.css"/>
+	</head>
+	<body>
+		<!--页面搜索框-->
+		<div class="gonglue_bjt">
+		<div class="gonglue_search">
+			<h3>今天&nbsp;,&nbsp;您有什么需要我们帮助的吗&nbsp;?</h3>
+			<form action="{:U('Home/Bangzhu/gonglue')}" method="get">
+				<div class="big_waibao"><input type="text" name="search" value="" placeholder="搜索的问题..." /><button>搜索</button></div>
+				<div class="hot_search">
+					<foreach name="sou" item="ss">
+						<a href="javascript:void(0);" type="{$ss['product']}" ids="{$ss['id']}" onclick="re(this)">{$ss['title']}</a>
+					</foreach>
+				</div>
+
+			</form>
+		</div>
+		</div>
+		<!--页面搜索框-->
+		
+	<div class="help_center">
+	<!--<div class="toubu"><a href="{:U('Index/index')}">卓屹金服</a> > <span>攻略问答</span></div>-->
+	<div class="gonglue_out">
+	<div class="gonglue_list">
+	    <!-- <a href="{:U('Home/Bangzhu/gonglue')}?product=1" <if condition="$product eq 1">class="gonglue_active"</if> >抵押经营</a> -->
+	    <a href="javascript:void(0);" <if condition="$product eq 1">class="gonglue_active"</if> type="1">抵押经营</a>
+		<a href="javascript:void(0);" <if condition="$product eq 2">class="gonglue_active"</if> type="2">抵押消费</a>
+		<a href="javascript:void(0);" <if condition="$product eq 3">class="gonglue_active"</if> type="3">公积金</a>
+		<a href="javascript:void(0);" <if condition="$product eq 4">class="gonglue_active"</if> type="4">月供</a>
+		<a href="javascript:void(0);" <if condition="$product eq 5">class="gonglue_active"</if> type="5">保单</a>
+		<a href="javascript:void(0);" <if condition="$product eq 6">class="gonglue_active"</if> type="6">短借</a>
+		<a href="javascript:void(0);" <if condition="$product eq 7">class="gonglue_active"</if> type="7">垫资</a>
+		<a href="javascript:void(0);" <if condition="$product eq 8">class="gonglue_active"</if> type="8">征信</a>
+		<a href="javascript:void(0);" <if condition="$product eq 9">class="gonglue_active"</if> type="9">综合</a>
+	</div>
+	
+	
+	<div class="help_center_con">
+	<div>
+<div class="jyTable">
+	<div class="zong">
+		<div class="list list1">
+			<div class="tabCon" >
+<div class="ZYJF_one_left">
+	<!--<if condition="$search eq NULL">
+		<div class="gonglue_list_duiy">
+			<if condition="strtoupper($product) eq '1'">
+	            抵押经营
+	        <elseif condition="strtoupper($product) eq '2'" />
+	            抵押消费
+	        <elseif condition="strtoupper($product) eq '3'" />
+	            公积金
+	        <elseif condition="strtoupper($product) eq '4'" />
+	            月供
+	        <elseif condition="strtoupper($product) eq '5'" />
+	            保单
+	        <elseif condition="strtoupper($product) eq '6'" />
+	            短借
+	        <elseif condition="strtoupper($product) eq '7'" />
+	            垫资
+	        <elseif condition="strtoupper($product) eq '8'" />
+	            征信
+	        <elseif condition="strtoupper($product) eq '9'" />
+	            综合
+	        </if>
+		</div>
+	<else />
+		<div class="gonglue_list_duiy">
+		搜索
+		</div>
+	</if>-->
+		<div class="jq22-container">
+				<div class="wwl_shoufq">
+
+			    <dl class="ddl">
+				<if condition="$res neq NULL">
+					<foreach name="res" item="p">
+						<dt>{$p['title']}</dt>
+				    	<dd>
+							{$p['content']}
+				    	</dd>
+					</foreach>
+				<else />
+					暂无此问题~~~~~~
+		    	</if>
+			    </dl>
+		</div>
+		</div>	
+</div>
+		<!--在这里加入致电、位置、在线咨询、预约贷款，放置方式与顶部导航栏相同-->
+		<div class="detail_add">
+		<ul class="detail_add_ul">
+			<li class="detail_cur">致电</li>
+			<li>位置</li>
+			<li>在线咨询</li>
+			<li>预约贷款</li>
+		</ul>	
+		 <div class="detail_add_div">
+		 	<div>
+          <div class="detail_zhidain">
+		 	<div class="detail_zhidian_left">
+		 		<div class="title">9:00-22:00</div>
+		 		<h3 class="color_tel">服务咨询</h3>
+		 		<div>400-9100-188</div>
+		 	</div>
+		 	<div class="detail_zhidian_right">
+		 		<div class="title">9:00-18:00</div>
+				<h3 class="color_tel">岗位咨询</h3>
+				<div>400-9100-166</div>
+		 	</div>
+		 	</div>	
+	
+		 	</div>
+		 	<div style="display: none;">
+		 	<div class="detail_left">
+		 	<h2 class="color_tel">总部地址</h2>
+		 	<div >北京市朝阳区东四环中路41号嘉泰国际大厦B座11层</div>
+		 	<h2  class="color_tel">分部地址</h2>
+		 	<div>北京市朝阳区西大望路温特莱中心B座202</div>
+		 	<h2  class="color_tel">交通方式</h2>
+		 	<div>总部：乘坐地铁一号线大望路站E或F口出
+		 		乘坐595路英家坟下车即可</div>
+		 		<div>分部：乘坐地铁一号线大望路站E或F口出，直走即可</br>
+		 	</div>
+		 	</div>
+		 	<div class="detail_right">
+		 	<div class="detail_ditu">
+			<div id="allmap">
+	        </div>	
+		   </div>
+		   	</div>
+		 		
+		 		
+		 	</div>
+<div style="display: none;">
+		 		<div class="inline_detail">
+		 			<div class="inline_detail_le">
+		 				<h2>服务咨询</h2>
+		 				<div>每天 9:00--18:00</div>
+		 				<div class="detail_tijiao fuwu_wl">
+		 					<a href="tencent://message/?uin=2174136514&Site=客服1&Menu=yes" target="_blank" class="call_me">与我联系</a>
+
+		 					</div>
+		 				
+		 			</div>
+		 			<div class="inline_detail_ri">
+		 				<h2>岗位咨询</h2>
+		 				<div>每天 9:00--18:00</div>
+		 				<div class="detail_tijiao fuwu_dhf">
+		 					<a href="tencent://message/?uin=2174136514&Site=客服1&Menu=yes" target="_blank" class="call_me">与我联系</a>
+		 				</div>
+		 			</div>
+		 		</div>
+		 	</div>
+
+		 	<div style="display: none;">
+		 		<div class="yuyue_dhf">		
+		 		<div class="form-inline">
+		 		<div class="form-group">
+	<label for="name_dhf"  class="margi">姓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;名：</label>
+	<input type="tel" name="ename" class="form-control" id="name_dhf" value="" placeholder="请输入您的姓名" />
+	
+	</div>
+	<div class="form-group">
+	<label for="tel_dhf"  class="margi">电&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;话：</label>
+	<input type="tel" name="phone" class="form-control" id="tel_dhf" value="" placeholder="请输入您的手机号" />
+	
+	</div>
+	</br>
+	<div class="form-group">
+	<label for="b" class="margi">贷款金额：</label>
+	<input type="text" name="money" class="form-control" id="b" value="" placeholder="请输入您的贷款金额" />
+	
+</div>
+</br>
+<div class="form-group">
+	<label for="input" class="margi">验证码：</label>
+	<input type="text" id="input" class="form-control" placeholder="请输入安全码" >
+	<div class="yzm_php" style="float:right;width:115px;height:37px;">
+							 <img src="{:U('Home/Public/createVCode')}" style="display:block;margin:0px 0  0 0px;width: 100%;height:37px " onclick="this.src='{:U('Home/Public/createVCode/id')}'+Math.round(new Date().getTime()/1000)" id="yzm">
+							 </div>
+	
+</div>
+</br>
+<button type="submit" class="help_submit" onclick="submit()">提交</button>
+	</div>
+		</div>
+		</div>
+		</div>
+		</div>
+<!--在这里加入致电、位置、在线咨询、预约贷款，放置方式与顶部导航栏相同-->
+			</div>
+			<!--du=iyige jieshu-->
+			
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
+<script src="http://api.map.baidu.com/api?v=2.0&ak=dq2a6dn7Zdc7AXGKWGhqjxN2qMzHn3CQ"></script>
+
+
+<script type="text/javascript">
+(function(){
+    $('dd').filter(':nth-child(n+4)').addClass('hideo');
+    $('dl').on('click', 'dt', function() {
+	    $(this).siblings().next().not('dt').slideUp(200)
+	    $(this).next().slideToggle(200);
+    });
+ })();	 
+$(function(){
+var st1=116.494836;
+var st2=39.922884;
+var map = new BMap.Map("allmap");//创建map对象
+var point = new BMap.Point(st1,st2);//经纬度
+map.centerAndZoom(point,15);//定位显示城市及缩放比例	
+var marker = new BMap.Marker(point);  // 创建标注
+map.addOverlay(marker);              // 将标注添加到地图中
+map.addControl(new BMap.NavigationControl());//添加缩放平移控件
+map.enableScrollWheelZoom(true)//启用鼠标滚轮更改显示比例			
+	var opts = {
+	  width : 200,     // 信息窗口宽度
+	  height: 100,     // 信息窗口高度
+	  title : "卓屹金服" , // 信息窗口标题
+	  enableMessage:true,//设置允许信息窗发送短息
+	  message:"亲耐滴，晚上一起吃个饭吧？戳下面的链接看下地址喔~"
+	}
+	var infoWindow = new BMap.InfoWindow("地址：北京市朝阳区东四环中路嘉泰国际大厦B座1711室可乘坐1号线或14号线F口出", opts);  // 创建信息窗口对象
+	marker.addEventListener("click", function(){          
+		map.openInfoWindow(infoWindow,point); //开启信息窗口
+	});	
+
+})
+
+$('.detail_add_ul>li').click(function(){
+	var t=$(this).index();
+	$('.detail_add_ul>li').removeClass('detail_cur');
+	$(this).addClass('detail_cur');
+	$('.detail_add_div>div').hide();
+	$('.detail_add_div>div').eq(t).show();
+})
+	
+	function submit()
+	{
+		var ename = $('#name_dhf').val();
+		var phone = $('#tel_dhf').val();
+		var money = $('#b').val();
+		var code = $('#input').val();
+		$.ajax({
+			type : 'post',
+			url : "{:U('Home/By/add')}",
+			data : {ename:ename,phone:phone,money:money,code:code},
+			success : function(data)
+			{
+				if(data == 1)
+				{
+					lay('姓名不能为空',5);
+				}else if(data == 2){
+					lay('手机号不能为空',5);
+				}else if(data == 3){
+					lay('手机号不正确',5);
+				}else if(data == 4){
+					lay('贷款金额不能为空不正确',5);
+				}else if(data == 5){
+					lay('验证码不正确',5);
+					document.getElementById("yzm").src="{:U('Home/Public/createVCode/id')}="+ Math.random();
+					
+				}else{
+					lay('您的信息我们已收到，我们会及时与您联系',1);
+				}
+			}
+		})
+	}
+	
+//	$(function(){ 
+//		var windowUrl=window.location.href;
+//		$(".gonglue_list>a").each(function(){
+//			$(this).removeClass("gonglue_active")
+//      var t=$(this).attr('href');
+//      if(windowUrl.indexOf(t)!=-1){
+//        $(this).addClass('gonglue_active');
+//        return;
+//      }
+// })
+//	})
+
+//添加高亮，并返回数据
+$('.gonglue_list').on('click','a',function(){
+	$('.gonglue_list_duiy').html('');
+	$('.ddl').html('');
+
+	$('.gonglue_list>a').removeClass('gonglue_active');
+	$(this).addClass('gonglue_active');
+
+	var product = $(this).attr('type');
+	// alert(product);
+	// $.ajax({
+	// 	type : 'post',
+	// 	url : '{:U('Home/Bangzhu/ajax2')}',
+	// 	data : {product:product},
+	// 	success : function(da){
+	// 		if(da==1){
+	// 			var pro = '抵押经营';
+	// 		}else if(da==2){
+	// 			var pro = '抵押消费';
+	// 		}else if(da==3){
+	// 			var pro = '公积金';
+	// 		}else if(da==4){
+	// 			var pro = '月供';
+	// 		}else if(da==5){
+	// 			var pro = '保单';
+	// 		}else if(da==6){
+	// 			var pro = '短借';
+	// 		}else if(da==7){
+	// 			var pro = '垫资';
+	// 		}else if(da==8){
+	// 			var pro = '征信';
+	// 		}else if(da==9){
+	// 			var pro = '综合';
+	// 		}
+	// 		var dd = $('.gonglue_list_duiy').append(pro);
+			
+	// 	}
+	// })
+	$.ajax({
+		type : 'post',
+		url : '{:U('Home/Bangzhu/ajax')}',
+		data : {product:product},
+		success : function(data){
+			
+			var de = eval("("+data+")");
+			// console.log(de);
+			var dat;
+			if(de.length!==0){
+				$.each(de,function(i,n){
+					dat = '<dt>'+n.title+'</dt><dd>'+n.content+'</dd>';
+					$('.ddl').append(dat);
+				});
+			}else{
+				dat = '暂无此问题~~~~~~';
+				$('.ddl').append(dat);
+			}
+			$('dd').filter(':nth-child(n)').addClass('hideo');
+		}
+	})
+})
+
+//热搜
+function re(obj){
+	$('.gonglue_list_duiy').html('');
+	$('.ddl').html('');
+	var product = $(obj).attr('type');
+	var id = $(obj).attr('ids');
+
+	$('.gonglue_list>a').removeClass('gonglue_active');
+	$(".gonglue_list>a").each(function(){  //遍历产品
+		var inde=$(this).attr("type");
+		if(inde==product){           //当产品的type=热搜的product时，给此产品加高亮
+			$(this).addClass('gonglue_active');
+			return;
+		}
+	})
+	$.ajax({
+		type : 'post',
+		url : '{:U('Home/Bangzhu/reSou2')}',
+		data : {product:product},
+		success : function(da){
+			if(da==1){
+				var pro = '抵押经营';
+			}else if(da==2){
+				var pro = '抵押消费';
+			}else if(da==3){
+				var pro = '公积金';
+			}else if(da==4){
+				var pro = '月供';
+			}else if(da==5){
+				var pro = '保单';
+			}else if(da==6){
+				var pro = '短借';
+			}else if(da==7){
+				var pro = '垫资';
+			}else if(da==8){
+				var pro = '征信';
+			}else if(da==9){
+				var pro = '综合';
+			}
+			var dd = $('.gonglue_list_duiy').append(pro);
+			
+		}
+	})
+	// $(this).addClass('gonglue_active');
+	$.ajax({
+		type : 'post',
+		url : '{:U('Bangzhu/reSou')}',
+		data : {product:product,id:id},
+		success : function(dd){
+			var de = eval("("+dd+")");
+
+			var dds;
+			$.each(de,function(i,n){
+				dds = '<dt type='+n.id+'>'+n.title+'</dt><dd>'+n.content+'</dd>';
+				$('.ddl').append(dds);
+
+			})
+			$('dd').filter(':nth-child(n)').addClass('hideo');
+
+		}
+	})
+}	
+
+$(".hot_search>a").click(function(){
+		$('html,body').animate({scrollTop: '900px'}, 1000);
+	})
+	
+</script>
+<!--页面跟踪-->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-85930367-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<script>
+	//统计浏览本攻略问答页面的次数，每次进入或刷新本页面，浏览量+1
+	$(function(){
+		var id = 17;
+		$.ajax({
+			type : 'post',
+			url : '{:U('Home/Flow/show')}',
+			data : {id:id},
+			success : function(data){
+				if(data){
+					$(document).ready(function() {
+					    setInterval(function() {
+					    	var did = data;
+					        $.ajax({
+					            url : '{:U('Home/Flow/index')}',
+					            async: false ,
+					            type : 'post',
+					            data : {id:did},
+					            success: function(msg) {
+					                
+					            }
+					        });
+					    }, 3000);
+					});
+				}
+			}
+		});
+	})
+</script>

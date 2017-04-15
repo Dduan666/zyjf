@@ -1,0 +1,147 @@
+<!-- <extend name="Index/index" /> -->
+<include file="Index/index" />
+<block name="wrapper">
+
+    <div class="content-wrapper">
+        <!-- Content Header (Page header) -->
+        <section class="content-header">
+            <h1>
+                管理员管理
+                <small>这是后台的管理员添加页面</small>
+            </h1>
+            <ol class="breadcrumb">
+                <li><a href="#"><i class="fa fa-dashboard"></i> 管理员管理</a></li>
+                <li class="active">管理员添加</li>
+            </ol>
+        </section>
+        
+        <!-- Main content -->
+        <section class="content">
+       
+            <div class="row">
+                <!-- left column -->
+                <div class="col-md-12">
+                    <!-- general form elements -->
+                    <div class="box box-primary">
+                        <div class="box-header with-border">
+                            <h3 class="box-title">管理员添加</h3>
+                        </div><!-- /.box-header -->
+                        <!-- form start -->
+                        
+                        <form role="form" action="{:U('Admin/User/insert')}" method="post" enctype="multipart/form-data" name="form11" id="edit" onsubmit="return Length()">
+                        
+                            <div class="box-body">
+                            
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">管理员</label>
+                                    <input type="text" name="name" class="form-control" value="" id="name"
+                                           placeholder="请输入管理员名称">
+                                           <span id='span' style='margin-left:20px;color:green !important;'></span>
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputPassword1">密码</label>
+                                    <input type="password" name="password" class="form-control" id="password"
+                                           placeholder="请输入至少8位的密码">
+                                           <span id='spanp' style='margin-left:20px;color:green !important;'></span>
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputPassword1">确认密码</label>
+                                    <input type="password" name="repassword" class="form-control" id="repassword"
+                                           placeholder="请再次输入正确密码">
+                                           <span id='spand' style='margin-left:20px;color:green !important;'></span>
+                                </div>
+                                
+                                <!-- <div class="form-group">
+                                    <label for="exampleInputPassword1">昵称</label>
+                                    <input type="text" name="kname" class="form-control" id="kname"
+                                           placeholder="请输入你的昵称">
+                                </div> -->
+                                
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">管理员等级</label>
+                                    <select name="rank" class="form-control" id="rank">
+                                        <option value="1">一级管理员</option>
+                                        <option value="2">二级管理员</option>
+                                        <option value="3">三级管理员</option>
+                                    </select>
+                                    注释:
+                                <small>管理员注释
+                                </small>
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">状态</label>
+                                    <select name="status" class="form-control" id="status">
+                                        <option value="1">启用</option>
+                                        <option value="0">禁用</option>
+                                        
+                                    </select>
+                                </div>
+                                
+                            </div><!-- /.box-body -->
+
+                            <div class="box-footer" id="tian">
+                                <button type="submit" id="jia" class="btn btn-primary">添加</button>
+                                <button type="reset" class="btn btn-primary">重置</button>
+                            </div>
+                        </form>
+                    </div><!-- /.box -->
+                </div><!--/.col (left) -->
+                <!-- right column -->
+                <div class="col-md-6">   
+                </div><!--/.col (right) -->
+            </div>   <!-- /.row -->
+        </section><!-- /.content -->
+    </div>
+<script type="text/javascript" src="__PUBLIC__/bootstrap/js/jquery.validation/1.14.0/jquery.validate.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/bootstrap/js/jquery.validation/1.14.0/validate-methods.js"></script>
+<script type="text/javascript" src="__PUBLIC__/bootstrap/js/jquery.validation/1.14.0/messages_zh.min.js"></script>
+<script type="text/javascript">
+
+// jQuery.validator.addMethod("isMobile", function(value, element) {
+//     var length = value.length;
+//     var mobile = /^(13[0-9]{9})|(18[0-9]{9})|(14[0-9]{9})|(17[0-9]{9})|(15[0-9]{9})$/;
+//     return this.optional(element) || (length == 11 && mobile.test(value));
+// }, "请正确填写您的手机号码");
+
+$("form[name=form11]").validate({
+    rules:{
+        name:{
+            required:true,
+            rangelength:[5,16],
+        },
+        password:{
+            required:true,
+            rangelength:[8,16],
+        },
+        repassword:{
+            required:true,
+            equalTo:"#password",
+        },
+        // kname:{
+        //     required:true,
+        //     minlength:2,
+        // }
+        
+    },
+    messages:{
+        name:{
+            required: "请填写管理员用户名",
+            rangelength:"请输入5-16位的管理员用户名",
+        },
+        password:{
+            required:"请填写密码",
+            rangelength:"密码为8-16位数字字母下划线",
+        },
+        repassword:{
+            required:"请填写确认密码",
+            equalTo:"确认密码与密码不一致",
+        },
+        // kname:{
+        //     required:"昵称不能为空",
+        //     minlength:"昵称最少两位",
+        // }
+        
+    }
+});
+</script>
+</block>

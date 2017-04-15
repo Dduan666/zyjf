@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			*,input{
+			margin: 0;padding: 0;
+		}
+			.abjt{position: relative;z-index: -1;
+				width: 1422px;margin: 0 auto;
+			}
+			.abjt>img{
+				width: 100%;
+			}
+			.newlist{margin: 0 auto;
+				width: 100%;min-width: 1422px;
+			}
+			.newlist_con{
+				width:1200px;margin: 0 auto;
+			}
+			.newlist_title a,.newlist_title span{
+			line-height: 60px;
+			color:#666666 ;font-size: 14px;text-decoration: none;	
+			}
+			.new_list_big{
+				width: 100%;
+				margin-bottom: 30px; 
+			/*	overflow: hidden;*/
+			}
+			.new_list_big_left{
+				box-shadow: 0 0 10px #D5D5D5;
+				padding: 30px 45px;box-sizing: border-box;
+				float: left;width:390px;
+				position: relative;
+			}
+			.new_list_big_left img{
+				display: block;width:300px;height: 170px;
+			}
+			.new_list_big_left:before{
+	 			content: "";
+			    border-color: transparent #fff;
+			    border-style: solid;
+			    border-width: 15px 0 15px 15px;
+			    display: block;
+			    height: 0;
+			    right: -345px;
+			    position: relative;
+			    top: 295px;
+			    width: 0;
+			}
+			.img_one{
+				margin-bottom: 30px;
+			}
+			.new_list_big_right{
+				box-sizing: border-box;
+				padding:30px 20px 0 ;height: 590px;
+				float: right;width: 810px;margin-top: 30px;
+				background:#eeeeee ;
+			}
+            .new_list_big_right ul{
+            	list-style: none;margin: 0;padding: 0;
+            }
+            .new_list_big_right ul li{
+            		position: relative;
+            }
+             
+            .new_list_big_right ul>li a{
+            	display: block;
+            	line-height: 40px;
+            	border-bottom: 1px dashed #4FC3AE;
+            	margin-bottom:20px;
+            	font-size:18px;
+            	color: #333333;
+            	text-decoration: none;
+            	text-indent:50px;
+            	background-image: url(__PUBLIC__/zy/img/fangdian.png);
+            	background-repeat: no-repeat;
+            	background-position: 10px 16px;
+           
+            }
+            .new_list_big_right ul>li a:hover{
+            	color:#4FC3AE;
+            }
+            .fenmye{
+            	box-sizing: border-box;
+            	border: 1px solid #cd9c2d;
+            	width: 100%;height: 50px;
+            }
+            .new_contain{
+            	text-align: left;
+            	display: inline-block;
+            	width:500px;
+            	text-indent:0px;
+            }
+            .new_date{display: inline-block;
+            	width: 210px;
+            	text-align: right;
+            }
+            .span_new2{
+            	line-height: 50px;
+            }
+            
+		</style>
+	</head>
+	<body>
+		<div class="abjt">
+			<img src="__PUBLIC__/zy/img/new_list.png"/>
+		</div>
+		<div class="newlist">
+			<div class="newlist_con">
+				<div class="newlist_title">
+					<!-- <a href="">卓屹金服</a> > <span>新闻中心</span> -->
+				</div>
+				
+				<div class="new_list_big">
+					<div class="new_list_big_left">
+						<!--<div class="small_sanjiao"></div>-->
+						<img src="__PUBLIC__/zy/img/list11.png" alt="" class="img_one"/>
+						<img src="__PUBLIC__/zy/img/list22.png" alt="" class="img_one"/>
+						<img src="__PUBLIC__/zy/img/list22.png" alt="" class="img_one"/>
+					</div>
+					<div class="new_list_big_right">
+					<ul>
+						<foreach name="nav" item="a">
+							<li>
+								<a class="dkgl_new" href="{:U('Bangzhu/newlist_xqy',array('id'=>$a['id']))}">{$a['title']}</a>
+								<span class="span_new2">{$a['time']}</span>
+							</li>
+						
+						</foreach>
+					</ul>
+					
+					<div class="productPage">
+					    {$pagestr}
+					</div>
+					</div>
+					<div style="clear: both;"></div>
+				</div>
+				
+				
+				
+			</div>
+			
+			
+		</div>
+		
+		
+	</body>
+</html>
+<script>
+	//统计浏览本新闻资讯页面的次数，每次进入或刷新本页面，浏览量+1
+	$(function(){
+		var id = 18;
+		$.ajax({
+			type : 'post',
+			url : '{:U('Home/Flow/show')}',
+			data : {id:id},
+			success : function(data){
+				if(data){
+					$(document).ready(function() {
+					    setInterval(function() {
+					    	var did = data;
+					        $.ajax({
+					            url : '{:U('Home/Flow/index')}',
+					            async: false ,
+					            type : 'post',
+					            data : {id:did},
+					            success: function(msg) {
+					                
+					            }
+					        });
+					    }, 3000);
+					});
+				}
+			}
+		});
+	})
+</script>

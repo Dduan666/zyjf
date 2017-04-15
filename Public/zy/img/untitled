@@ -1,0 +1,1353 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<meta charset="UTF-8">
+<head>
+<title>�����Ѻ���,���ݵ�Ѻ���,������˾��������ڡ�</title>
+<meta http-equiv=Content-Type content="text/html; charset=gb2312">
+<meta name="sogou_site_verification" content="MxR4bhEYXB"/>
+<meta name="location" content="province=����;city=����;coord=116.306522891,40.0555055968">
+<meta name="applicable-device" content="pc">
+ 
+<link href="/images/style.css" type=text/css rel=stylesheet>
+<link rel="stylesheet" type="text/css" href="../css/hz_xydk.css">
+<link rel="stylesheet" type="text/css" href="../css/hz_index.css"> 
+<meta name="Keywords" content="��Ѻ���,���ݵ�Ѻ���,�����Ѻ���,��Ѻ��˾,������Ѻ���,��˾,������˾,������ҵ���,������˾,���ڴ��,������������2016,�������������2016">
+
+<meta name="Description" content="��������ڡ�����֪����ڷ����,���º�����,���󵣱�����ȫ���ӹ�˾,ҵ�񺭸ǵ�Ѻ���޵�Ѻ���ô����ַ������ڴ��.��Ѻ�����ֻ���?����Ѻ���,���ݵ�Ѻ���">
+
+<script src="/ks_inc/jquery.js" type="text/javascript"></script>
+<script src="/ks_inc/common.js" type="text/javascript"></script>
+<script src="/ks_inc/Slide.js" type="text/javascript"></script>
+<script src="/ks_inc/lhgdialog.js"></script>
+   
+
+<script type="text/javascript">
+	var mobileAgent = new Array("iphone", "ipod", "ipad", "android", "mobile", "blackberry", "webos", "incognito", "webmate", "bada", "nokia", "lg", "ucweb", "skyfire");
+	var browser = navigator.userAgent.toLowerCase(); 
+	var isMobile = false; 
+	for (var i=0; i<mobileAgent.length; i++){ if (browser.indexOf(mobileAgent[i])!=-1){ isMobile = true; 
+	//alert(mobileAgent[i]); 
+	location.href = 'http://m.ihouze.com';
+	break; } } 
+</script>
+
+<!--���ض���-->
+<script type="text/javascript" src="../hz_js/jquery-1.10.2.min.js"></script>
+<!--���ض���-->
+<!--��껬����Чend--> 
+<!--[if IE 6]>
+<script src="/js/iepng.js" type="text/javascript"></script>
+<script type="text/javascript">
+   EvPNG.fix('div, ul, img, li, input'); 
+</script>
+<![endif]-->
+	<!--���ٿ�-->
+	<script src="http://lib.sinaapp.com/js/jquery/1.4.2/jquery.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+       $(document).ready(function() {
+          var tags_a = $("#bktags a");
+          tags_a.each(function(){
+              var x = 9;
+              var y = 0;
+              var rand = parseInt(Math.random() * (x - y + 1) + y);
+              $(this).addClass("bktags"+rand);
+           });
+       })   
+    </script>
+    <!--���ٿ�-->
+    <!--�ʴ� ���� ��ǩ�л�-->
+    <script>
+		function setTab(m,n){
+		 var tli=document.getElementById("menu"+m).getElementsByTagName("li");
+		 var mli=document.getElementById("main"+m).getElementsByTagName("ul");
+		 for(i=0;i<tli.length;i++){
+		  tli[i].className=i==n?"hover":"";
+		  mli[i].style.display=i==n?"block":"none";
+		 }
+		}
+	</script>
+    <!--�ʴ� ���� ��ǩ�л�-->
+    <!--��ҵ��Ѷ ������� ��ǩ�л�-->
+    <script>
+		function setTaba(m,n){
+		 var tli=document.getElementById("menua"+m).getElementsByTagName("li");
+		 var mli=document.getElementById("maina"+m).getElementsByTagName("ul");
+		 for(i=0;i<tli.length;i++){
+		  tli[i].className=i==n?"hover":"";
+		  mli[i].style.display=i==n?"block":"none";
+		 }
+		}
+	</script>
+    <!--��ҵ��Ѷ ������� ��ǩ�л�-->
+	<!--��������-->
+        <script type="text/javascript">
+            function showul() {
+                var hiorc = document.getElementById("hiorc").value;
+                if (hiorc == "1") {
+                    document.getElementById("otherLinks").style.display = "block";
+                    document.getElementById("orc").innerHTML = "����&nbsp;��";
+                    document.getElementById("hiorc").value = "0";
+                } else {
+                    document.getElementById("otherLinks").style.display = "none";
+                    document.getElementById("orc").innerHTML = "չ��&nbsp;��";
+                    document.getElementById("hiorc").value = "1";
+                }
+            }
+        </script>
+
+              <style>
+			body{ margin:0px; padding:0px}
+			a{ text-decoration:none}
+			.hz_banner{ width:100%; height:330px; overflow:hidden; position:absolute;}
+			.hz_banner ul{ padding:0px; margin:0px; list-style:none; width:100%;}
+			/*.hz_banner li  img{ width:100%; height:auto; }�߶����ȱ仯����ʽ*/
+			.hz_banner li { width:100%; height:auto; ; display:none}
+			.hz_banner li div{/*background-size:100% 100%;*/ height:330px}
+			#hz_banner_tit{ position:absolute; top:290px; height:18px; z-index:999;  overflow:hidden; text-align:center;clear:both; width:250px; left:50%; margin-left:-125px}
+			#hz_banner_tit div{ height:8px; width:30px; margin:3px; background: #FFF; display: inline-block; overflow: hidden;   cursor:pointer }
+			#hz_banner_left{ position:absolute; left:60px;  height:60px; width:60px; z-index:999; top:135px; cursor:pointer; background:url(../images/ll.png) no-repeat center center}
+			#hz_banner_right{ position:absolute; right:60px;  height:60px; width:60px; z-index:999; top:135px; cursor:pointer; background:url(../images/rr.png) no-repeat center center}
+			#hz_banner_tit .active{ background:#FE605D}
+			
+			#hz_tishiz{ width:100%;  position:fixed; top:0px; overflow:hidden;height:0px;background:#ed5d52;}
+			#hz_tsdivz{ width:1024px;  margin:0 auto; text-align:center; line-height:40px; color:#FFF; font-size:14px;height:40px;}
+                        #hz_tsdivz  a{  line-height:40px; color:#FFF; font-size:14px; text-decoration:none; cursor:pointer}
+			#hz_tsdivz span{ color:#ffe956;font-size:14px; margin-right:10px; display:inline-block; line-height:40px}
+			#hz_tsdivz img { border:0px; vertical-align:middle;  }
+			#hz_closz{ height:40px; width:32px; color:#FFF; font-size:14px; position:absolute; right:0; line-height:40px; cursor:pointer}
+			#hzall{ position:relative; width:100%; overflow:hidden}
+		</style>
+        <!--20160321banner��ʼ-->
+        <script src="../Scripts/move.js"></script>
+		
+        <script>
+			window.onload=function()
+			{
+				/*��ʾ��Ϣ��ʼ*/
+				var hz_tishiz=document.getElementById("hz_tishiz")
+				var hzall=document.getElementById("hzall");
+				move(hz_tishiz,{height:40});
+				move(hzall,{marginTop:40});
+				var hz_closz=document.getElementById("hz_closz");
+				hz_closz.onclick=function()
+				{
+				    move(hzall,{marginTop:0});
+					move(hz_tishiz,{height:0});
+				   
+				}
+				/*��ʾ��Ϣ����*/
+			  var  hz_oul= document.getElementById("hz_oul");
+			  var  hz_oLi=hz_oul.getElementsByTagName("li");
+			  var  hz_banner_tit=document.getElementById("hz_banner_tit");
+			  var  hz_oDiv=hz_banner_tit.getElementsByTagName("div");
+			  var  hz_banner_left=document.getElementById("hz_banner_left");
+			  var  hz_banner_right=document.getElementById("hz_banner_right"); 
+			  var time=null;
+				  var num=0;
+				  
+				  for(var i=0;i <hz_oDiv.length;i++ )
+				  {
+					  hz_oDiv[i].index=i
+					  hz_oDiv[i].onclick=function()
+					  {
+						 num=this.index;
+						 acd(num);  
+					  } 
+				  }
+				   function acd(nun)
+				   {
+					   
+					   for(var i=0;i<hz_oDiv.length;i++ )
+						   {
+								hz_oDiv[i].className='';
+								hz_oLi[i].style.display='none';   
+						   }
+						  hz_oDiv[num].className='active';
+						  hz_oLi[num].style.display='block';
+				  }
+					 
+					 clearInterval(time);
+					 
+					 
+					 hz_banner_left.onclick=function()
+					 {
+						 clearInterval(time);
+					 
+						 num--;
+						 if(num==-1)
+						 {
+						   num=hz_oDiv.length-1;	 
+						 }
+						 
+						acd(num);  	 
+					 }
+					 
+					 hz_banner_right.onclick=function()
+					 {
+						 clearInterval(time);
+					 
+						 num++;
+						 if(num==hz_oDiv.length)
+						 {
+						   num=0	 
+						 }
+						 
+						acd(num);  	 
+					 }
+					 
+					var time= setInterval(
+					 
+					 function()
+					 {
+						 num++;
+						 if(num==hz_oDiv.length)
+						 {
+						   num=0	 
+						 }
+						 
+						acd(num); 
+						
+					 }
+					 
+					 ,5000)
+			}
+			
+			</script>
+        
+        <!--20160321banner����-->
+
+</head>
+
+<body>
+	
+   
+	<div class="hzall"> 
+            <!--��ʾ��Ϣ��ʼ-->
+            <div id="hz_tishiz">
+                   <div id="hz_closz">�ر�</div>
+                  <div id="hz_tsdivz">
+                        <img src="../images/hz_GW/hz_ts_z.jpg" >
+                        <span>��ܰ��ʾ ��</span>������������ð�Ա���˾����������ÿ������ҵ��&nbsp;&nbsp;<a href="/html/News/Industry/5145.html" target="_blank">���>></a>
+                        <img src="../images/hz_GW/hz_ts_2z.jpg" style="margin-left:60px">
+                        <span>��ѯ�绰 ��</span>64997000
+                        
+                  </div>  
+            </div>
+            <!--��ʾ��Ϣ����-->
+         <div id="hzall">
+                  <!--΢��-->
+    <script>
+		function displayImage() {
+			document.getElementById("image1").style.display = "block";
+		}
+		function hiddenImage() {
+			document.getElementById("image1").style.display = "none";
+		}
+	</script>
+	<style>
+		#image1 { position:absolute; z-index:99; top:35px; left:865px;  display:none;}
+	</style>
+	<!--΢��-->
+<div style=" width:100%; margin:auto;  z-index:99;">
+    <div style=" width:1002px; margin:auto; position:relative;  z-index:99;">
+        <div id="image1"><img src="../html/images/HZ_images/hzwx.gif" width="92" height="92" /></div>  
+    </div>
+</div>
+<div class="topback">
+	<div class="hztop1">
+        	<div class="hztop1n1">
+            	<div class="hztop1ns">
+                	<div class="hztop1nsl"><img src="../html/images/HZ_images/guwm.png" />&nbsp;&nbsp;<a href="/html/about/gyhz/3891.html"  rel="nofollow">
+���ں���</a> &nbsp;<img src="../html/images/HZ_images/lxwm.png" 
+/>&nbsp;&nbsp;<a href="/html/about/lxwm/3892.html" rel="nofollow">��ϵ����</a></div>
+                    <div class="hztop1nsm"><a href="#" onmouseover="displayImage()" onmouseout="hiddenImage()"><img src="../html/images/HZ_images/t_weixin.gif" 
+/>&nbsp;����΢��</a>&nbsp;&nbsp;<img 
+src="../html/images/HZ_images/t_weibo.gif" />&nbsp;<a href="http://weibo.com/bjihouze" target="_blank" rel="nofollow">�ٷ�΢��
+</a>&nbsp;&nbsp;<a href="/html/hzpg/" target="_blank"><img 
+src="../html/images/HZ_images/t_fangch.png" target="_blank" />&nbsp;��������</a></div>
+                    <!--<div class="hztop1nsr">&nbsp; <a href="">��¼</a>&nbsp; &nbsp;<a href="">���ע��</a></div>-->
+                </div>
+            </div>
+        </div>
+        <!--��ɫͷ������-->
+        <!--logo��ʼ-->
+        <div class="hztop2">
+        	<div class="hztop2n">
+            	<div class="hztop2ns">
+            		<div class="hztop2_logo"><a href="/"><img src="../html/images/HZ_images/t_logo.gif" width="343" height="140" /></a></div>
+                    <div class="hztop2_m"><img src="../html/images/HZ_images/logor.png" /></div>
+                    <div class="hzrx"><img src="../html/images/HZ_images/hzex.png" /></div>
+                </div>
+            </div>
+        </div>
+        <!--logo����-->
+
+        <div class="clear "></div>
+
+        <div class="nav">
+            <div class="menu">
+                <ul>
+                    <li class="currclass"><a  href="/">��ҳ</a></li>  
+                    <li><a  href="/html/Housingloan/" rel="nofollow">���ַ����</a></li>  
+                    <li><a  href="/html/Mortgage/">��Ѻ���</a></li>  
+                    <li><a  href="/html/Shorttb/">���ڽ��</a></li>  
+                    <li><a  href="/html/Creditloan/" rel="nofollow">���ô��</a></li>  
+                    <li><a  href="/html/News/">������Ѷ</a></li>  
+                    <li><a  href="/html/Ask/">�����ʴ�</a></li>  
+                    <li><a  href="/html/tool/">��������</a></li>			
+                </ul>
+            </div>	
+        </div>
+
+</div><!--topback--->
+         </div>
+    	
+        <!--��������-->
+        <div class="hzcons">
+        	<!--banner��ʼ-->
+                <div style="width:100%; height:330px;">
+                   <div class="hz_banner" >
+                    <!--img-->
+                     <ul id="hz_oul">
+                            
+                         <li style="display:block">
+                              <a href="/html/banner/wybbanner/5318.html"><div style=" background:url(/UploadFiles/2016-07/282/2016070711521552531.jpg) no-repeat center center; "></div></a>
+                         </li>
+                          
+                         <li style="display:block">
+                              <a href="/html/banner/wybbanner/4508.html"><div style=" background:url(/UploadFiles/2016-03/282/2016031110100498535.jpg) no-repeat center center; "></div></a>
+                         </li>
+                          
+                         <li style="display:block">
+                              <a href="/html/banner/wybbanner/4205.html"><div style=" background:url(/UploadFiles/2016-03/282/20160311112636215.jpg) no-repeat center center; "></div></a>
+                         </li>
+                          
+                         <li style="display:block">
+                              <a href="/html/banner/wybbanner/4204.html"><div style=" background:url(/UploadFiles/2016-03/282/2016031117261072018.jpg) no-repeat center center; "></div></a>
+                         </li>
+                          
+                         <li style="display:block">
+                              <a href="/html/banner/wybbanner/3848.html"><div style=" background:url(/UploadFiles/2016-03/282/2016031110112390327.jpg) no-repeat center center; "></div></a>
+                         </li>
+                          
+                     </ul>
+                     <!--tit-->
+                     <div id="hz_banner_tit">
+                             <div class="active"></div>
+                             <div></div>
+                             <div></div>
+                             <div></div>
+                             <div></div>
+                     </div>
+                     <!--left-->
+                     <div id="hz_banner_left">
+                     </div>
+                     <!--right-->
+                     <div id="hz_banner_right">
+                     </div>
+              </div>
+            
+            
+                </div>
+               <!--banner����-->
+            <div style="width:100%; float:left;">
+                <div class="hzcon">
+                    <div class="hz_in_c1">
+                        <div class="hz_in_dkbt"><a href="/html/Housingloan/">���ַ����</a></div>
+                    </div>
+                    <div class="hzcon2">
+                        <!--���ŵ�Ѻ������� ��-->
+                        <div class="hz_in_c2">
+                            <!--����ס���������-->
+                            <div class="hz_in_c2_l">
+                                <div class="hzcon_r_c8">
+                                    <div class="hz_in_r_c9">&nbsp;&nbsp;���Ŷ��ַ����</div>
+                                    <div class="hz_in_r_c10"><a href="/html/Housingloan/">���</a>&nbsp;&nbsp;&nbsp;</div>
+                                </div> 
+                                <div class="hz_dy_c7">
+                                      
+<li><table cellpadding="0" cellspacing="0" border="0" width="220">
+                                	<tr>
+                                    		<td width="40%" height="30"><a href="/html/syzcxs/rmzfdkyx/3967.html" rel="nofollow">���������</a></td>
+                                        	<td width="35%"></td>
+                                        	<td width="25%" align="right">3.25��</td>
+                                    	</tr>
+                                   
+                                </table></li>
+ 
+<li><table cellpadding="0" cellspacing="0" border="0" width="220">
+                                	<tr>
+                                    		<td width="40%" height="30"><a href="/html/syzcxs/rmzfdkyx/3965.html" rel="nofollow">ũҵ����</a></td>
+                                        	<td width="35%">83��</td>
+                                        	<td width="25%" align="right">4.07��</td>
+                                    	</tr>
+                                   
+                                </table></li>
+ 
+<li><table cellpadding="0" cellspacing="0" border="0" width="220">
+                                	<tr>
+                                    		<td width="40%" height="30"><a href="/html/syzcxs/rmzfdkyx/3958.html" rel="nofollow">��������</a></td>
+                                        	<td width="35%">85��</td>
+                                        	<td width="25%" align="right">4.17��</td>
+                                    	</tr>
+                                   
+                                </table></li>
+ 
+<li><table cellpadding="0" cellspacing="0" border="0" width="220">
+                                	<tr>
+                                    		<td width="40%" height="30"><a href="/html/syzcxs/rmzfdkyx/3963.html" rel="nofollow">��ͨ����</a></td>
+                                        	<td width="35%">85��</td>
+                                        	<td width="25%" align="right">4.17��</td>
+                                    	</tr>
+                                   
+                                </table></li>
+ 
+<li><table cellpadding="0" cellspacing="0" border="0" width="220">
+                                	<tr>
+                                    		<td width="40%" height="30"><a href="/html/syzcxs/rmzfdkyx/5458.html" rel="nofollow">�ַ�����</a></td>
+                                        	<td width="35%">85��</td>
+                                        	<td width="25%" align="right">4.17��</td>
+                                    	</tr>
+                                   
+                                </table></li>
+ 
+<li><table cellpadding="0" cellspacing="0" border="0" width="220">
+                                	<tr>
+                                    		<td width="40%" height="30"><a href="/html/syzcxs/rmzfdkyx/3845.html" rel="nofollow">��������</a></td>
+                                        	<td width="35%">85��</td>
+                                        	<td width="25%" align="right">4.17��</td>
+                                    	</tr>
+                                   
+                                </table></li>
+ 
+<li><table cellpadding="0" cellspacing="0" border="0" width="220">
+                                	<tr>
+                                    		<td width="40%" height="30"><a href="/html/syzcxs/rmzfdkyx/4878.html" rel="nofollow">��������</a></td>
+                                        	<td width="35%">85��</td>
+                                        	<td width="25%" align="right">4.17��</td>
+                                    	</tr>
+                                   
+                                </table></li>
+ 
+<li><table cellpadding="0" cellspacing="0" border="0" width="220">
+                                	<tr>
+                                    		<td width="40%" height="30"><a href="/html/syzcxs/rmzfdkyx/3962.html" rel="nofollow">��������</a></td>
+                                        	<td width="35%">85��</td>
+                                        	<td width="25%" align="right">4.17��</td>
+                                    	</tr>
+                                   
+                                </table></li>
+
+                                </div> 
+                            </div>  
+                            <div class="hz_in_c2_m">
+                                <!--�й�ũҵ����LB_��ҳ_ס���������-->
+                               
+                                  
+                                                         	
+<!--���ַ��������-->                	
+                              <div class="hz_in_c2_m1">
+                                       <div class="hz_bk_titz">
+                                             <div class="hz_bk_titlz">
+                                                     <a href="/html/Housingloan_1505_11.html">���ַ��������</a>
+                                             </div>
+                                       </div>
+                                       <div  class="hz_bk_con1z">
+                                             <div class="hz_bk_con2z">
+                                                       <span>����</span>����3.25% / ���120��<br>
+                                                   
+                                                        <span>����</span>����3.58% / ���80��
+                                             </div>
+                                       </div>
+                                       <div class="hz_bk_con3z">
+                                              <img src="../images/hz_GW/hz_bkcon1z.jpg">
+                                       </div>
+                                       
+                                       
+                                        <div class="hz_in_c5ns">
+                                            <div class="hz_in_c5ns_a">
+                                                <div class="hz_in_c5ns_l"><font style="font-size:13px; color:#656565;">7-10<span style="font-size:10px;">������</span></font><br />����ʱ��</div>
+                                                <div class="hz_in_c5ns_m"><font style="font-size:13px; color:#656565;">���ַ�</font><br />֧������</div>
+                                                <div class="hz_in_c5ns_r"><font style="font-size:13px; color:#656565;">10<span style="font-size:10px;">������</span></font><br />�ſ�ʱ��</div>
+                                            </div>
+                                        </div>
+                                       
+                                 </div> 
+                                
+
+
+                        	<!--���ַ���ҵ���-->
+                        	     <div class="hz_in_c2_mr">
+                                       <div class="hz_bk_titz">
+                                             <div class="hz_bk_titrz">
+                                                   <a href="/html/Housingloan/"> ���ַ���ҵ���</a>
+                                             </div>
+                                       </div>
+                                      <div  class="hz_bk_con1z">
+                                       
+                                              <div class="hz_bk_con2z">
+                                                       <span>����</span>�׸�30% / �����ۿ�<font color="#ed5d52">83��</font><br>
+                                                   
+                                                        <span>����</span>�׸�50% / �����ϸ�10%
+                                               </div>
+                                       </div>
+                                 
+                                       <div class="hz_bk_con3z">
+                                             <img src="../images/hz_GW/hz_bkcon2z.jpg">
+                                       </div>
+                                        <div class="hz_in_c5ns">
+                                            <div class="hz_in_c5ns_a">
+                                                <div class="hz_in_c5ns_l"><font style="font-size:13px; color:#656565;">7-10<span style="font-size:10px;">������</span></font><br />����ʱ��</div>
+                                                <div class="hz_in_c5ns_m"><font style="font-size:13px; color:#656565;">���ַ�</font><br />֧������</div>
+                                                <div class="hz_in_c5ns_r"><font style="font-size:13px; color:#656565;">15<span style="font-size:10px;">������</span></font><br />�ſ�ʱ��</div>
+                                            </div>
+                                        </div>
+                               </div> 
+
+                                 
+                                
+                          </div>
+                            <!--��������-->
+                            <div class="hzcon_r_c1" style=" border:0px; float:right;">
+                                <!--<div class="hzcon_r_c2">&nbsp;&nbsp;��������</div>-->
+                                <div class="hzcon_r_c2">
+                                    <div class="hzcon_r_c9">&nbsp;&nbsp;��������</div>
+                                    <div class="hzcon_r_c10"><a href="/html/tool/">���</a>&nbsp;&nbsp;&nbsp;</div>
+                                </div>
+                                <div class="hzcon_r_c3">
+                                  <a href="/html/tool/HousingLoan/" rel="nofollow">
+                                    <div class="hzcon_r_c4">
+                                        <div class="hzcon_r_c4_img"><img src="../html/images/HZ_images/jsq_fd.gif" /></div>
+                                        <div class="hzcon_r_c4_c"><font style="font-size:16px; color:#434343;">���������</font><br />�������ʣ���ȷ����</div>
+                                    </div>
+                                   </a>
+                                </div>
+                                <div class="hzcon_r_c3">
+                                  <a href="/html/tool/AccumulationFund/" rel="nofollow">
+                                     <div class="hzcon_r_c4">
+                                        <div class="hzcon_r_c4_img"><img src="../html/images/HZ_images/jsq_aj.gif" /></div>
+                                        <div class="hzcon_r_c4_c"><font style="font-size:16px; color:#434343;">������������</font><br />�������ʣ���ȷ����</div>
+                                     </div>
+                                   </a>
+                                </div>
+                                <div class="hzcon_r_c3">
+                                     <a href="/html/tool/ComparisonRepayment/" rel="nofollow">
+                                      <div class="hzcon_r_c4">
+                                            <div class="hzcon_r_c4_img"><img src="../html/images/HZ_images/jsq_hk.gif" /></div>
+                                            <div class="hzcon_r_c4_c"><font style="font-size:16px; color:#434343;">���������</font><br />���������ɻ���</div>
+                                        </div>
+                                     </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hz_in_c8">
+                        	<div class="hz_in_c8l"><img src="../html/images/HZ_images/hz_in_img.png" border="0" /></div>
+                            <div class="hz_in_c8r"><a href="/html/hzpg" target="_blank"><img src="../html/images/HZ_images/hz_in_img1.png" border="0" /></a></div>
+                        </div>
+                        <div class="hz_in_c1">
+                            <div class="hz_in_dkbt"><a href="/html/Mortgage/">��Ѻ���</a></div>
+                        </div>
+                        <div class="hz_in_c9">
+                            <div class="hz_in_c2_l">
+                                <div class="hzcon_r_c8">
+                                    <div class="hz_in_r_c9">&nbsp;&nbsp;���ŵ�Ѻ���</div>
+                                    <div class="hz_in_r_c10"><a href="/html/Mortgage/">���</a>&nbsp;&nbsp;&nbsp;</div>
+                                </div> 
+                                 
+                                <div class="hz_dy_c7">
+                                     
+    <table cellpadding="0" cellspacing="0" border="0" width="220">
+        <tr>
+            <td width="100%" height="34" style=" border-bottom:dashed 1px #ccc;"><a href="/html/syzcxs/rmdydkyx/4341.html">����ֵ��� - �д��ܴ�</a></td>
+        </tr>
+                                   
+    </table>
+ 
+    <table cellpadding="0" cellspacing="0" border="0" width="220">
+        <tr>
+            <td width="100%" height="34" style=" border-bottom:dashed 1px #ccc;"><a href="/html/syzcxs/rmdydkyx/3853.html">��ҵ��Ѻ��� - ���������ʽ�</a></td>
+        </tr>
+                                   
+    </table>
+ 
+    <table cellpadding="0" cellspacing="0" border="0" width="220">
+        <tr>
+            <td width="100%" height="34" style=" border-bottom:dashed 1px #ccc;"><a href="/html/syzcxs/rmdydkyx/3852.html">��ѵ�Ѻ��� - �����ۺ����</a></td>
+        </tr>
+                                   
+    </table>
+ 
+    <table cellpadding="0" cellspacing="0" border="0" width="220">
+        <tr>
+            <td width="100%" height="34" style=" border-bottom:dashed 1px #ccc;"><a href="/html/syzcxs/rmdydkyx/3851.html">װ�޵�Ѻ��� - ��ͥװ����;</a></td>
+        </tr>
+                                   
+    </table>
+ 
+    <table cellpadding="0" cellspacing="0" border="0" width="220">
+        <tr>
+            <td width="100%" height="34" style=" border-bottom:dashed 1px #ccc;"><a href="/html/syzcxs/rmdydkyx/3840.html">��ѧ��Ѻ��� - ������ѧ���</a></td>
+        </tr>
+                                   
+    </table>
+ 
+    <table cellpadding="0" cellspacing="0" border="0" width="220">
+        <tr>
+            <td width="100%" height="34" style=" border-bottom:dashed 1px #ccc;"><a href="/html/syzcxs/rmdydkyx/3839.html">������Ѻ��� - �������÷���</a></td>
+        </tr>
+                                   
+    </table>
+
+                                </div> 
+                            </div>
+                            <div class="hz_in_c9_ma">
+                                 
+    <div class="hz_in_c10" style="    background: #FFF;">
+                            	<div class="hz_in_c9_m2">
+                                	<div class="hz_in_c9_m_img"><a href="/html/Mortgage_1506_2.html"><img src="/UploadFiles/2015-11/282/2015112418261525527.gif" width="40" height="40" /></a></div>
+                                    <div class="hz_in_c9_m3">
+                                    	<div class="hz_in_c9_m4">
+                                        	<div class="hz_in_c9_m5"><a href="/html/Mortgage_1506_2.html"><span style="color:#990000">[�Ƽ�]</span>��ҵ��Ӫ��Ѻ�����������ʽ�</a></div>
+                                            <div class="hz_dy_c3"><span style="background-color:#49B6FB; font-size:12px; color:#FFFFFF;"></span></div>
+                                        	
+                                        </div>	
+                                        <div class="hz_in_c9_m6">���ö�����ҵ���ˣ�����ɶ�������ɶ�</div>
+                                        <div class="hz_in_c9_m6">��Ʒ���ƣ�20�����ޣ�������5.39����</div>
+                                         
+                                    </div>
+                                </div>
+                            </div>
+
+ 
+    <div class="hz_in_c9_m1" style="    background: #FFF;">
+                            	<div class="hz_in_c9_m2">
+                                	<div class="hz_in_c9_m_img"><a href="/html/Mortgage_1506_1.html"><img src="/UploadFiles/2015-11/282/2015112418255236930.gif" width="40" height="40" /></a></div>
+                                    <div class="hz_in_c9_m3">
+                                    	<div class="hz_in_c9_m4">
+                                        	<div class="hz_in_c9_m5"><a href="/html/Mortgage_1506_1.html"><span style="color:#990000">[�Ƽ�]</span>30����ѵ�Ѻ�������</a></div>
+                                            <div class="hz_dy_c3"><span style="background-color:#49B6FB; font-size:12px; color:#FFFFFF;"></span></div>
+                                        	
+                                        </div>	
+                                        <div class="hz_in_c9_m6">���ö��󣺸��˴�����</div>
+                                        <div class="hz_in_c9_m6">��Ʒ���ƣ��30�ꡢ���»���</div>
+                                         
+                                    </div>
+                                </div>
+                            </div>
+ 
+                            </div>
+                            <div class="hzcon_r_c1" style=" float:right; border:0px;">
+                                <div class="hzcon_r_c8">
+                                    <div class="hzcon_r_c9">&nbsp;&nbsp;��������</div>
+                                    <div class="hzcon_r_c10"><a href="/html/Ask/">���</a>&nbsp;&nbsp;&nbsp;</div>
+                                </div>
+                                <div class="hz_in_c9_m8">
+                                     
+<div class="hzzf_r_c5"><a href="/html/Ask/dkwd/dkyt/5534.html" >�� �������ʲô���ƣ�</a></div>   
+ 
+<div class="hzzf_r_c5"><a href="/html/Ask/dkwd/dkcs/5531.html" >�� ���п�û��ע���Ӱ�������</a></div>   
+ 
+<div class="hzzf_r_c5"><a href="/html/Ask/dkwd/dkcs/5411.html" >�� ��ش��������Ӱ�챾�ش��</a></div>   
+ 
+<div class="hzzf_r_c5"><a href="/html/Ask/dkwd/dkcs/5372.html" >�� �����ĺ��弰���</a></div>   
+ 
+<div class="hzzf_r_c5"><a href="/html/Ask/dkwd/dkcp/5361.html" >�� ʲô����ѧ��</a></div>   
+
+                                    
+                                </div>
+                                <div class="hz_in_c9_m9">
+                                    <div class="hz_in_c9_m10">
+                                      <div class="hz_in_c9_m10_img"><a href="/html/Shorttb_1507_4.html"><img src="../html/images/HZ_images/hz_in_d.gif" border="0" /></a></div>
+                                        <div class="hz_in_c9_m10w"><a href="/html/Shorttb_1507_4.html">���ŵ���</a></div>
+                                    </div> 
+                                    <div class="hz_in_c9_m10">
+                                      <div class="hz_in_c9_m10_img"><a href="/html/Shorttb_1507_3.html"><img src="../html/images/HZ_images/hz_in_d1.gif" border="0" /></a></div>
+                                        <div class="hz_in_c9_m10w"><a href="/html/Shorttb_1507_3.html">��¥����</a></div>
+                                    </div> 
+                                    <div class="hz_in_c9_m10">
+                                      <div class="hz_in_c9_m10_img"><a href="/html/Shorttb_1507_5.html"><img src="../html/images/HZ_images/hz_in_d2.gif" border="0" /></a></div>
+                                        <div class="hz_in_c9_m10w"><a href="/html/Shorttb_1507_5.html">����ת����</a></div>
+                                    </div> 
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hz_in_c1">
+                            <div class="hz_in_dkbt"><a href="/html/Shorttb/">���ڽ��</a></div>
+                        </div>
+                        <div class="hz_in_c9">
+                            <div class="hz_in_c2_l">
+                                <div class="hzcon_r_c8">
+                                    <div class="hz_in_r_c9">&nbsp;&nbsp;���Ŷ��ڽ��</div>
+                                    <div class="hz_in_r_c10"><a href="/html/Shorttb/">���</a>&nbsp;&nbsp;&nbsp;</div>
+                                </div> 
+                                <div class="hz_dy_c7">
+                                     
+<li><table cellpadding="0" cellspacing="0" border="0" width="220">
+                                	<tr>
+                                    		<td width="100%" height="34"  style=" border-bottom:dashed 1px #ccc;"><a href="/html/syzcxs/rmdqjk/5055.html">e�����-����,�ſ��</a></td>
+                                        
+                                    	</tr>
+                                   
+                                </table></li>
+ 
+<li><table cellpadding="0" cellspacing="0" border="0" width="220">
+                                	<tr>
+                                    		<td width="100%" height="34"  style=" border-bottom:dashed 1px #ccc;"><a href="/html/syzcxs/rmdqjk/5054.html">e�����-��Ѻ����Ѻ����</a></td>
+                                        
+                                    	</tr>
+                                   
+                                </table></li>
+ 
+<li><table cellpadding="0" cellspacing="0" border="0" width="220">
+                                	<tr>
+                                    		<td width="100%" height="34"  style=" border-bottom:dashed 1px #ccc;"><a href="/html/syzcxs/rmdqjk/5053.html">e�����-˫Ѻ������+����</a></td>
+                                        
+                                    	</tr>
+                                   
+                                </table></li>
+ 
+<li><table cellpadding="0" cellspacing="0" border="0" width="220">
+                                	<tr>
+                                    		<td width="100%" height="34"  style=" border-bottom:dashed 1px #ccc;"><a href="/html/syzcxs/rmdqjk/3865.html">�������� - 24Сʱ�ſ�</a></td>
+                                        
+                                    	</tr>
+                                   
+                                </table></li>
+ 
+<li><table cellpadding="0" cellspacing="0" border="0" width="220">
+                                	<tr>
+                                    		<td width="100%" height="34"  style=" border-bottom:dashed 1px #ccc;"><a href="/html/syzcxs/rmdqjk/3855.html">���ε�Ѻ - �д��ܴ�</a></td>
+                                        
+                                    	</tr>
+                                   
+                                </table></li>
+
+                                </div> 
+                            </div>
+                            <div class="hz_in_c9_m">
+                                
+    <div class="hz_in_c10">
+        <div class="hz_in_c9_m2">
+            <div class="hz_in_c9_m_img"><a href="/html/Shorttb_1507_8.html"><img src="/UploadFiles/2016-03/282/2016031709085680844.png" width="40" height="40" /></a></div>
+            <div class="hz_in_c9_m3">
+                <div class="hz_in_c9_m4">
+                    <div class="hz_in_c9_m5"><a href="/html/Shorttb_1507_8.html">e�����Ѻ����Ѻ����</a></div>
+                    <div class="hz_dy_c3"><span style="background-color:#FF8D73; font-size:12px; color:#FFFFFF;"></span></div>
+                    
+                </div>	
+                <div class="hz_in_c9_m6">���ö��󣺼�������ʽ���ת</div>
+                <div class="hz_in_c9_m6">��Ʒ���ƣ���Ϣ�͡������㡢����ڼ䲻�����ó�</div> 
+                 
+            </div>
+        </div>
+    </div>
+
+ 
+    <div class="hz_in_c9_m1">
+        <div class="hz_in_c9_m2">
+            <div class="hz_in_c9_m_img"><a href="/html/Shorttb_1507_7.html"><img src="/UploadFiles/2015-12/282/2015121614555423620.png" width="40" height="40" /></a></div>
+            <div class="hz_in_c9_m3">
+                <div class="hz_in_c9_m4">
+                    <div class="hz_in_c9_m5"><a href="/html/Shorttb_1507_7.html"><span style="color:#990000">[�Ƽ�]</span>e�������ߣ��ſ�죬��;��</a></div>
+                    <div class="hz_dy_c3"><span style="background-color:#FF8D73; font-size:12px; color:#FFFFFF;"></span></div>
+                    
+                </div>	
+                <div class="hz_in_c9_m6">���ö��󣺶��ڼ����ʽ���ת</div>
+                <div class="hz_in_c9_m6">��Ʒ���ƣ�10����20����24Сʱ�ſ�</div> 
+                 
+            </div>
+        </div>
+    </div>
+
+                            </div>  
+                            <div class="hz_dkbk_c3" style="border:0px;">
+                                <!--<div class="hzcon_r_c8">
+                                    <div class="hzcon_r_c9">&nbsp;&nbsp;���ٿ�</div>
+                                    <div class="hzcon_r_c10"><a href="/html/LoanEncyclopedia/">���</a>&nbsp;&nbsp;&nbsp;</div>
+                                </div> 
+                                <div class="hz_in_c10_m1">
+                                    <div class="dkbklist"> 
+                                         <div class="dkbkw95" id="bktags">
+                                             <div style=" width:100px; float:left; margin-left:8px;"><a href="/html/LoanEncyclopedia/gjj/"> &#160;�������&#160; </a></div>
+<div style=" width:100px; float:left; margin-left:8px;"><a href="/html/LoanEncyclopedia/dkll/"> &#160;�������&#160; </a></div>
+<div style=" width:100px; float:left; margin-left:8px;"><a href="/html/LoanEncyclopedia/yxdk/"> &#160;���д��&#160; </a></div>
+<div style=" width:100px; float:left; margin-left:8px;"><a href="/html/LoanEncyclopedia/xedk/"> &#160;С����&#160; </a></div>
+<div style=" width:100px; float:left; margin-left:8px;"><a href="/html/LoanEncyclopedia/dydk/"> &#160;��Ѻ���&#160; </a></div>
+<div style=" width:100px; float:left; margin-left:8px;"><a href="/html/LoanEncyclopedia/wdydk/"> &#160;�޵�Ѻ���&#160; </a></div>
+<div style=" width:100px; float:left; margin-left:8px;"><a href="/html/LoanEncyclopedia/fd/"> &#160;����&#160; </a></div>
+<div style=" width:100px; float:left; margin-left:8px;"><a href="/html/LoanEncyclopedia/esfdk/"> &#160;���ַ����&#160; </a></div>
+<div style=" width:100px; float:left; margin-left:8px;"><a href="/html/LoanEncyclopedia/xydk/"> &#160;���ô��&#160; </a></div>
+<div style=" width:100px; float:left; margin-left:8px;"><a href="/html/LoanEncyclopedia/xd/"> &#160;�Ŵ�&#160; </a></div>
+<div style=" width:100px; float:left; margin-left:8px;"><a href="/html/LoanEncyclopedia/grdk/"> &#160;���˴��&#160; </a></div>
+<div style=" width:100px; float:left; margin-left:8px;"><a href="/html/LoanEncyclopedia/wd/"> &#160;���&#160; </a></div>
+<div style=" width:100px; float:left; margin-left:8px;"><a href="/html/LoanEncyclopedia/db/"> &#160;����&#160; </a></div>
+<div style=" width:100px; float:left; margin-left:8px;"><a href="/html/LoanEncyclopedia/jk/"> &#160;���&#160; </a></div>
+<div style=" width:100px; float:left; margin-left:8px;"><a href="/html/LoanEncyclopedia/dkmf/"> &#160;�����&#160; </a></div>
+<div style=" width:100px; float:left; margin-left:8px;"><a href="/html/LoanEncyclopedia/fwdk/"> &#160;���ݴ��&#160; </a></div>
+<div style=" width:100px; float:left; margin-left:8px;"><a href="/html/LoanEncyclopedia/zfdk/"> &#160;ס�����&#160; </a></div>
+<div style=" width:100px; float:left; margin-left:8px;"><a href="/html/LoanEncyclopedia/xedkgs/"> &#160;С���˾&#160; </a></div>
+ 
+                                         </div>
+                                     </div> 
+                                </div> -->
+                                <a href="/html/download/gjj/"><img src="../html/images/HZ_images/shydkzlxz.jpg"></a>
+                            </div> 
+                            <div class="hz_in_tplh">
+                                <ul class="hz_in_tplh-wrapper">
+                                    <li>
+                                        <a href="/html/News/Policy/4089.html" target="_blank"><img src="../html/images/HZ_images/right_t1.jpg" width="246" height="144"></a>
+                                        <div style="width:100%;height:30px; line-height:34px; background:#ccc; opacity:0.5; position:absolute;left:0px;bottom:0px;"> </div>
+                                    </li>
+                                    <li style="display:none">
+                                        <a href="/html/News/Policy/4088.html" target="_blank"><img src="../html/images/HZ_images/right_t2.jpg" width="246" height="144"></a>
+                                        <div style="width:100%;height:30px; line-height:34px; background:#ccc; opacity:0.5; position:absolute;left:0px;bottom:0px;"> </div>
+                                    </li>
+                                    <li style="display:none">
+                                        <a href="/html/News/Policy/4087.html" target="_blank"><img src="../html/images/HZ_images/right_t3.jpg" width="246" height="144"></a>
+                                        <div style="width:100%;height:30px; line-height:34px; background:#ccc; opacity:0.5; position:absolute;left:0px;bottom:0px;"> </div>
+                                    </li> 
+                                </ul>
+                                <a href="javascript:;" class="ctrl-slide ck-prev">��һ��</a> <a href="javascript:;" class="ctrl-slide ck-next">��һ��</a> 
+                                <div class="hz_in_tplhbox">
+                                    <div class="slideWrap">
+                                        <ul class="dot-wrap">
+                                            <li class="current"><em>1</em></li>
+                                            <li><em>2</em></li>
+                                            <li><em>3</em></li> 
+                                        </ul>
+                                    </div>
+                                </div> 
+                            </div> 
+                            <script type="text/javascript" src="../hz_js/jquery-1.8.3.min.js"></script>
+                            <script type="text/javascript" src="../hz_js/inslide.js"></script>
+                            <script>
+                                $('.hz_in_tplh').ckSlide({
+                                    autoPlay: true,//Ĭ��Ϊ���Զ����ţ���Ҫʱ���Դ�����
+                                    dir: 'x',//Ĭ��Ч����������xΪˮƽ�ƶ���y Ϊ��ֱ����
+                                    interval:3000//Ĭ�ϼ��2000���� 
+                                });
+                            </script> 
+                            
+                        </div>
+                        <div class="hz_in_c1">
+                            <div class="hz_in_dkbt"><a href="/html/Creditloan/" rel="nofollow">���ô��</a></div>
+                        </div>
+                        <div class="hz_in_c9">
+                            <div class="hz_in_c2_l">
+                                <div class="hzcon_r_c8">
+                                    <div class="hz_in_r_c9">&nbsp;&nbsp;�������ô��</div>
+                                    <div class="hz_in_r_c10"><a href="/html/Creditloan/">���</a>&nbsp;&nbsp;&nbsp;</div>
+                                </div> 
+                                <div class="hz_dy_c7">
+                                     
+<li><table cellpadding="0" cellspacing="0" border="0" width="220">
+                                	<tr>
+                                    		<td width="100%" height="34" style=" border-bottom:dashed 1px #ccc;"><a href="/html/syzcxs/rmxydk/3861.html" rel="nofollow">������ - �豱�������</a></td>
+                                        	 
+                                    	</tr>
+                                   
+                                </table></li>
+ 
+<li><table cellpadding="0" cellspacing="0" border="0" width="220">
+                                	<tr>
+                                    		<td width="100%" height="34" style=" border-bottom:dashed 1px #ccc;"><a href="/html/syzcxs/rmxydk/3860.html" rel="nofollow">�籣�� - �豱���籣</a></td>
+                                        	 
+                                    	</tr>
+                                   
+                                </table></li>
+ 
+<li><table cellpadding="0" cellspacing="0" border="0" width="220">
+                                	<tr>
+                                    		<td width="100%" height="34" style=" border-bottom:dashed 1px #ccc;"><a href="/html/syzcxs/rmxydk/3859.html" rel="nofollow">���ʴ� - �蹤����ˮ</a></td>
+                                        	 
+                                    	</tr>
+                                   
+                                </table></li>
+ 
+<li><table cellpadding="0" cellspacing="0" border="0" width="220">
+                                	<tr>
+                                    		<td width="100%" height="34" style=" border-bottom:dashed 1px #ccc;"><a href="/html/syzcxs/rmxydk/3858.html" rel="nofollow">˰�Ѵ� - ����Ϣ���ô��</a></td>
+                                        	 
+                                    	</tr>
+                                   
+                                </table></li>
+ 
+<li><table cellpadding="0" cellspacing="0" border="0" width="220">
+                                	<tr>
+                                    		<td width="100%" height="34" style=" border-bottom:dashed 1px #ccc;"><a href="/html/syzcxs/rmxydk/3857.html" rel="nofollow">�¹��� - ȫ����¹����</a></td>
+                                        	 
+                                    	</tr>
+                                   
+                                </table></li>
+ 
+<li><table cellpadding="0" cellspacing="0" border="0" width="220">
+                                	<tr>
+                                    		<td width="100%" height="34" style=" border-bottom:dashed 1px #ccc;"><a href="/html/syzcxs/rmxydk/3856.html" rel="nofollow">����� - ���˹ɶ��ɴ��</a></td>
+                                        	 
+                                    	</tr>
+                                   
+                                </table></li>
+ 
+<li><table cellpadding="0" cellspacing="0" border="0" width="220">
+                                	<tr>
+                                    		<td width="100%" height="34" style=" border-bottom:dashed 1px #ccc;"><a href="/html/syzcxs/rmxydk/4084.html" rel="nofollow">������ - ����ҵ���յ�</a></td>
+                                        	 
+                                    	</tr>
+                                   
+                                </table></li>
+
+                                </div> 
+                            </div>
+                          <div class="hz_in_c9_m">
+                            
+    <div class="hz_in_c10">
+                            	<div class="hz_in_c9_m2">
+                                	<div class="hz_in_c9_m_img"><a href="/html/Creditloan_1504_14.html" ><img src="/UploadFiles/2016-07/282/2016070617433845612.gif" width="40" height="40" /></a></div>
+                                    <div class="hz_in_c9_m3">
+                                    	<div class="hz_in_c9_m4">
+                                        	<div class="hz_in_c9_m5"><a href="/html/Creditloan_1504_14.html" rel="nofollow">���״����з�һ�������</a></div>
+                                            <div class="hz_dy_c3"><span style="background-color:#49B6FB; font-size:12px; color:#FFFFFF;"></span></div>
+                                        	
+                                        </div>	
+                                        <div class="hz_in_c9_m6">���ö��󣺱����з�һ��</div>
+                                        <div class="hz_in_c9_m6">��Ʒ���ƣ���������֤��  ���ʵ�</div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="hz_in_c9_m1">
+                            	<div class="hz_in_c9_m2">
+                                	<div class="hz_in_c9_m_img"><a href="/html/Creditloan_1504_4.html"><img src="/UploadFiles/2015-11/282/2015112510454563125.gif" width="40" height="40" /></a></div>
+                                    <div class="hz_in_c9_m3">
+                                    	<div class="hz_in_c9_m4">
+                                        	<div class="hz_in_c9_m5"><a href="/html/Creditloan_1504_4.html" rel="nofollow"><span style="color:#990000">[�Ƽ�]</span>���ʴ�ֻ���ṩ����֤��</a></div>
+                                            <div class="hz_dy_c3"><span style="background-color:#49B6FB; font-size:12px; color:#FFFFFF;"></span></div>
+                                        	
+                                        </div>	
+                                        <div class="hz_in_c9_m6">���ö��󣺷Ǳ�������������ɴ�2����籣</div>
+                                        <div class="hz_in_c9_m6">��Ʒ���ƣ����30��ֻ������֤�����籣</div> 
+                                     
+                                    </div>
+                                </div>
+                            </div>
+
+                            </div>
+                            <div class="hz_in_c11"> 
+                                <div class="hzcon_r_c11_m1">
+                                    <a href="/html/Creditloan_1504_1.html" target="_blank"><img src="../html/images/HZ_images/39.png" border="0" /></a>
+                                    <!--<div class="section">
+                                        <ul class="clearfix">
+                                            <li>
+                                                <div class="photo"><img src="../html/images/HZ_images/39.png" border="0" /></div>
+                                                <div class="rsp"></div>
+                                                <div class="text">���ڽ�����...</div>
+                                            </li>
+                                        </ul>
+                                        <div class="clear"></div>
+                                    </div>-->
+                                </div> 
+                                <div class="hz_in_tplh">
+                                    <ul class="hz_in_tplh-wrapper">
+                                        <li>
+                                            <a href="/html/Special/gwdfb/3966.html" target="_blank"><img src="../html/images/HZ_images/right_b1.jpg" width="246" height="144"></a>
+                                            <div style="width:100%;height:30px; line-height:34px; background:#ccc; opacity:0.5; position:absolute;left:0px;bottom:0px;"> </div>
+                                        </li>
+                                        <li style="display:none">
+                                            <a href="/html/Special/gwdfb/3964.html" target="_blank"><img src="../html/images/HZ_images/right_b2.jpg" width="246" height="144"></a>
+                                            <div style="width:100%;height:30px; line-height:34px; background:#ccc; opacity:0.5; position:absolute;left:0px;bottom:0px;"> </div>
+                                        </li>
+                                        <li style="display:none">
+                                            <a href="/html/Special/gwdfb/4057.html" target="_blank"><img src="../html/images/HZ_images/right_b3.jpg" width="246" height="144"></a>
+                                            <div style="width:100%;height:30px; line-height:34px; background:#ccc; opacity:0.5; position:absolute;left:0px;bottom:0px;"> </div>
+                                        </li> 
+                                        <li style="display:none">
+                                            <a href="/html/Special/gwdfb/3959.html" target="_blank"><img src="../html/images/HZ_images/right_b4.jpg" width="246" height="144"></a>
+                                            <div style="width:100%;height:30px; line-height:34px; background:#ccc; opacity:0.5; position:absolute;left:0px;bottom:0px;"> </div>
+                                        </li> 
+                                    </ul>
+                                    <a href="javascript:;" class="ctrl-slide ck-prev">��һ��</a> <a href="javascript:;" class="ctrl-slide ck-next">��һ��</a> 
+                                    <div class="hz_in_tplhbox">
+                                        <div class="slideWrap">
+                                            <ul class="dot-wrap">
+                                                <li class="current"><em>1</em></li>
+                                                <li><em>2</em></li>
+                                                <li><em>3</em></li> 
+                                                <li><em>4</em></li> 
+                                            </ul>
+                                        </div>
+                                    </div>  
+                            </div> 
+                            <script type="text/javascript" src="../hz_js/jquery-1.8.3.min.js"></script>
+                            <script type="text/javascript" src="../hz_js/inslide.js"></script>
+                            <script>
+                                $('.hz_in_tplh').ckSlide({
+                                    autoPlay: true,//Ĭ��Ϊ���Զ����ţ���Ҫʱ���Դ�����
+                                    dir: 'x',//Ĭ��Ч����������xΪˮƽ�ƶ���y Ϊ��ֱ����
+                                    interval:3000//Ĭ�ϼ��2000���� 
+                                });
+                            </script>
+                            </div>
+                        </div>
+                        <div class="hz_in_c12">
+                            <!--�ʴ� ����-->
+                            <div class="hz_in_c12_l" id="tabs0">
+                                <!--<div class="hz_in_c12_l1">
+                                    <div class="hz_in_c12_l2">-->
+                                        <ul class="menu0" id="menu0">
+                                            <li onClick="setTab(0,0)" class="hover">�ʴ�</li>
+                                            <li onClick="setTab(0,1)">����</li>
+                                         </ul>
+                                    <!--</div>
+                                </div>-->
+                                <div class="hz_in_c12_l5" id="main0">
+                                    <ul class="block"><li> 
+    <div class="hz_in_c12_l5_t">
+        <div class="hz_in_c12_l5_timg"><a href="/html/Ask/dkwd/dkcs/4093.html"><img src="/UploadFiles/2015-11/282/2015112716510952571.png" width="133" height="91" /></a></div>
+        <div class="hz_in_c12_l5_tn">
+            <div class="hz_in_c12_l5_tw"><a href="/html/Ask/dkwd/dkcs/4093.html">�Ҹ����������ΪʲôҪѡ�ú����</a></div>
+            <div class="hz_in_c12_l5_twn"><a href="/html/Ask/dkwd/dkcs/4093.html">�ҿ����и����������ΪʲôҪѡ�ú��󵣱��Ĵ���</a> <font style="font-size:12px; color:#EC5D51;">��<a href="/html/Ask/dkwd/dkcs/4093.html" style="text-decoration:none; color:#EC5D51;">�鿴����</a>��</font></div>
+        </div>
+    </div>
+ 
+
+    <div class="hz_in_c12_l6"><font style="font-size:22px; color:#BEBEBE;">��</font> <a href="/html/Ask/dkwd/dkyt/5534.html">�������ʲô���ƣ�</a></div>
+
+    <div class="hz_in_c12_l6"><font style="font-size:22px; color:#BEBEBE;">��</font> <a href="/html/Ask/dkwd/dkcs/5531.html">���п�û��ע���Ӱ�����������</a></div>
+
+    <div class="hz_in_c12_l6"><font style="font-size:22px; color:#BEBEBE;">��</font> <a href="/html/Ask/dkwd/dkcs/5411.html">��ش��������Ӱ�챾�ش����</a></div>
+</li></ul>
+                                    <ul><li> 
+    <div class="hz_in_c12_l5_t">
+        <div class="hz_in_c12_l5_timg"><a href="/html/Ask/dkgl/3999.html"><img src="/UploadFiles/2015-11/282/20151109142716357.jpg" width="133" height="91" /></a></div>
+        <div class="hz_in_c12_l5_tn">
+            <div class="hz_in_c12_l5_tw"><a href="/html/Ask/dkgl/3999.html">�����ȷѡ��������</a></div>
+            <div class="hz_in_c12_l5_twn"><a href="/html/Ask/dkgl/3999.html">&#160;&#160;�ܶ����ڴ���ʱ�򣬸���ע���������ʵ�</a> <font style="font-size:12px; color:#EC5D51;">��<a href="/html/Ask/dkgl/3999.html" style="text-decoration:none; color:#EC5D51;">�鿴����</a>��</font></div>
+        </div>
+    </div>
+ 
+    <div class="hz_in_c12_l6"><font style="font-size:22px; color:#BEBEBE;">��</font> <a href="/html/Ask/dkgl/5346.html">��ҵ������ת�ɹ������</a></div>
+
+    <div class="hz_in_c12_l6"><font style="font-size:22px; color:#BEBEBE;">��</font> <a href="/html/Ask/dkgl/4950.html">&#8203;�������Щ�»�Ӱ�������򷿣�</a></div>
+
+    <div class="hz_in_c12_l6"><font style="font-size:22px; color:#BEBEBE;">��</font> <a href="/html/Ask/dkgl/4892.html">&#8203;�����&nbsp;�ȶϢ�ȶ�����ַ�ʽ���㣿</a></div>
+</li></ul> 
+                                </div>
+                            </div>
+                            <!--��ҵ��Ѷ �������-->
+                            <div class="hz_in_c12_r" id="tabsa0">
+                                <ul class="menua0" id="menua0">
+                                    <li onClick="setTaba(0,0)" class="hover">��ҵ��Ѷ</li>
+                                    <li onClick="setTaba(0,1)">�������</li>
+                                </ul>
+                                <div style="float:left;" id="maina0">
+                                    <div class="hz_in_c12_r2">
+                                        <ul class="block">
+                                            <li>
+                                                <div class="hz_in_c12_r3">
+                                                     
+    <div class="hz_in_c12_r6"><a href="/html/News/Industry/4563.html"><img src="/UploadFiles/2016-01/282/2016012518441981695.png" width="228" height="155" border="0" /></a></div>
+ 
+                                                    <!--<div class="hz_in_c12_r7">
+ 
+                                                    <div class="hz_in_c12_r8"><a href="/html/News/Industry/4563.html">����Ϊ��������Ӧ����һ��</a></div>
+                                                 
+                                                    <div class="hz_in_c12_r8"><a href="/html/News/Industry/4383.html">�㲻�����Ҳ�����&nbsp;�㲻������</a></div>
+                                                
+                                                </div>-->
+                                            </div> 
+                                            <div class="hz_in_c12_r4">
+                                            
+                                                <div class="hz_in_c12_r5">�� <a href="/html/News/Industry/4228.html">���󣺷����׽�����ѡƷ��</a></div>
+                                            
+                                                <div class="hz_in_c12_r5">�� <a href="/html/News/Industry/5662.html">�򷿰��Ҵ��ſ�������ʲô</a></div>
+                                            
+                                                <div class="hz_in_c12_r5">�� <a href="/html/News/Industry/5657.html">˳�����Ҳ�С�Ǳ����</a></div>
+                                            
+                                                <div class="hz_in_c12_r5">�� <a href="/html/News/Industry/5651.html">���²�������&nbsp;¥����ô��ȥ-</a></div>
+                                            
+                                                <div class="hz_in_c12_r5">�� <a href="/html/News/Industry/5645.html">�����������¹��������</a></div>
+                                            
+                                                <div class="hz_in_c12_r5">�� <a href="/html/News/Industry/5636.html">���ǿ���ģ����Ƿ���ģ��ռ�</a></div>
+                                            
+                                                <div class="hz_in_c12_r5">�� <a href="/html/News/Industry/5625.html">�������߷���ʱ���й������</a></div>
+                                            
+                                                <div class="hz_in_c12_r5">�� <a href="/html/News/Industry/5624.html">���ڻ���ĺ���ж����أ��Ժ�</a></div>
+                                            
+                                            </li>
+                                        </ul>
+                                        <ul>
+                                            <li>
+                                                <div class="hz_in_c12_r3">
+                                                     
+    <div class="hz_in_c12_r6"><a href="/html/News/Policy/4622.html"><img src="/UploadFiles/2016-02/282/2016020217132956688.png" width="228" height="155" border="0" /></a></div>
+
+                                                    <!--<div class="hz_in_c12_r7">
+                                                     
+                                                    <div class="hz_in_c12_r8"><a href="/html/News/Policy/4622.html">���·������������޹�������</a></div>
+                                                     
+                                                    <div class="hz_in_c12_r8"><a href="/html/News/Policy/5659.html">������ǩ�¹��¡��ٽ��</a></div>
+                                                    
+                                                </div>-->
+                                            </div>
+                                            <div class="hz_in_c12_r4">
+                                                
+                                                <div class="hz_in_c12_r5">�� <a href="/html/News/Policy/5653.html">�������ڡ��Ϻ����ڣ�����˭</a></div>
+                                                
+                                                <div class="hz_in_c12_r5">�� <a href="/html/News/Policy/5648.html">�������ַ���˰ҵ������ȫ</a></div>
+                                                
+                                                <div class="hz_in_c12_r5">�� <a href="/html/News/Policy/5639.html">�ֻ��Թ��������ǼӾ��й�</a></div>
+                                                
+                                                <div class="hz_in_c12_r5">�� <a href="/html/News/Policy/5635.html">����70%������������&nbsp;��־</a></div>
+                                                
+                                                <div class="hz_in_c12_r5">�� <a href="/html/News/Policy/5629.html">�������߽���̨&nbsp;����ȴ�ֻ�</a></div>
+                                                
+                                                <div class="hz_in_c12_r5">�� <a href="/html/News/Policy/5628.html">��Ҫ���ɣ���������ȡ����</a></div>
+                                                
+                                                <div class="hz_in_c12_r5">�� <a href="/html/News/Policy/5615.html">�����߼�����&nbsp;ʧ�صķ�����</a></div>
+                                                
+                                                <div class="hz_in_c12_r5">�� <a href="/html/News/Policy/5611.html">ͣ������֤���ķ�������Ȩ֤</a></div>
+                                                
+                                                </div>
+                                            </li>
+                                        </ul> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hz_in_c1">������</div>
+                        <div class="hz_in_c13">
+                            <!-- <table width="100%" cellspacing="2"> 
+</table>-->
+                            <div class="hz_in_c14">
+                                <div class="hz_in_c15"><img src="../html/images/HZ_images/bank_gsh.png" width="150" height="54" /></div>
+                                <div class="hz_in_c16"><img src="../html/images/HZ_images/bank_ny.png" /></div>
+                                <div class="hz_in_c16"><img src="../html/images/HZ_images/bank_bj.png" /></div>
+                                <div class="hz_in_c16"><img src="../html/images/HZ_images/bank_yzh.png" /></div>
+                                <div class="hz_in_c16"><img src="../html/images/HZ_images/bank_zhx.png" /></div>
+                                <div class="hz_in_c16"><img src="../html/images/HZ_images/bank_bsh.jpg" /></div> 
+                            </div>
+                            <div class="hz_in_c14">
+                                <div class="hz_in_c15"><img src="../html/images/HZ_images/bank_zhxt.jpg" /></div> 
+                                <div class="hz_in_c16"><img src="../html/images/HZ_images/bank_xy.png" /></div>
+                                <div class="hz_in_c16"><img src="../html/images/HZ_images/bank_pf.jpg" /></div>
+                                <div class="hz_in_c16"><img src="../html/images/HZ_images/bank_bh.jpg" /></div>
+                                <div class="hz_in_c16"><img src="../html/images/HZ_images/bank_gd.png" /></div>
+                                <div class="hz_in_c16"><img src="../html/images/HZ_images/yl_zhgpa.jpg" /></div>  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        	
+            <!--�ײ�-->
+            <div class="hzfoot"></div>
+    <div class="hzfoot1">
+        <div class="hzfoot1_c">
+            <div class="hzfoot2_yl">
+                 <font color="#434343">�������ӣ�<a href="/plus/link/reg/" target="_blank" rel="nofollow">&nbsp;&nbsp;������������</a></font>
+                <table cellpadding="0" cellspacing="0" border="0">
+  <tr>
+    <td>
+      <ul>
+         
+          <li style="float:left;"><a href="http://www.houjindai.com" target="_blank">����</a>&#160;&#160;&#160;&#160;</li>
+         
+          <li style="float:left;"><a href="http://www.licai.com" target="_blank">�������</a>&#160;&#160;&#160;&#160;</li>
+         
+          <li style="float:left;"><a href="http://www.qianhezi.cn" target="_blank">P2P���ƽ̨</a>&#160;&#160;&#160;&#160;</li>
+         
+          <li style="float:left;"><a href="http://pingan.kameng.com/" target="_blank">�Ϻ�ƽ������</a>&#160;&#160;&#160;&#160;</li>
+         
+          <li style="float:left;"><a href="http://www.xinhe99.com" target="_blank">�ʲ����</a>&#160;&#160;&#160;&#160;</li>
+         
+          <li style="float:left;"><a href="http://www.bxd365.com/" target="_blank">������վ</a>&#160;&#160;&#160;&#160;</li>
+         
+          <li style="float:left;"><a href="https://www.1ju.com/" target="_blank">С��Ͷ�����</a>&#160;&#160;&#160;&#160;</li>
+         
+          <li style="float:left;"><a href="http://www.dib66.com/" target="_blank">p2p���</a>&#160;&#160;&#160;&#160;</li>
+         
+          <li style="float:left;"><a href="http://www.ezxing.com" target="_blank">P2P���</a>&#160;&#160;&#160;&#160;</li>
+         
+          <li style="float:left;"><a href="http://www.kubaohe.com" target="_blank">�����������Ʋ�Ʒ</a>&#160;&#160;&#160;&#160;</li>
+        
+          <li style="float:left;"><a id="orc" style="color:#999;" onclick="showul()">չ��&#160;��</a><input type="hidden" value="1" id="hiorc"/></li>
+      </ul>
+      <ul id="otherLinks" style="display:none">
+         
+          <li style="float:left;"><a href="http://www.ihouze.com" target="_blank">������˾</a>&#160;&#160;&#160;&#160;</li>
+         
+          <li style="float:left;"><a href="http://www.ihouze.com" target="_blank">������Ѻ���</a>&#160;&#160;&#160;&#160;</li>
+         
+          <li style="float:left;"><a href="http://www.aibosha.com" target="_blank">Ͷ����˵��Ƶ</a>&#160;&#160;&#160;&#160;</li>
+         
+          <li style="float:left;"><a href="http://www.we.com" target="_blank">���˴�</a>&#160;&#160;&#160;&#160;</li>
+         
+          <li style="float:left;"><a href="http://www.gpw6.com" target="_blank">���ɰ�</a>&#160;&#160;&#160;&#160;</li>
+         
+          <li style="float:left;"><a href="http://www.kubaohe.com" target="_blank">Ͷ����Ʋ�Ʒ</a>&#160;&#160;&#160;&#160;</li>
+         
+          <li style="float:left;"><a href="http://www.moneytree33.com" target="_blank">P2F���</a>&#160;&#160;&#160;&#160;</li>
+         
+          <li style="float:left;"><a href="http://www.zhudai.com" target="_blank">���</a>&#160;&#160;&#160;&#160;</li>
+         
+          <li style="float:left;"><a href="http://www.haihejinrong.com" target="_blank">pppͶ����ƹ�˾</a>&#160;&#160;&#160;&#160;</li>
+         
+          <li style="float:left;"><a href="http://www.51qed.com/" target="_blank">����</a>&#160;&#160;&#160;&#160;</li>
+         
+          <li style="float:left;"><a href="https://www.tuandai.com/article/" target="_blank">Ͷ�����֪ʶ</a>&#160;&#160;&#160;&#160;</li>
+         
+          <li style="float:left;"><a href="http://www.zlcf.com/" target="_blank">С��Ͷ�����</a>&#160;&#160;&#160;&#160;</li>
+         
+          <li style="float:left;"><a href="http://www.huhutouzi.com/" target="_blank">����Ͷ����</a>&#160;&#160;&#160;&#160;</li>
+        
+      </ul>
+    </td>
+  </tr>
+
+
+</table>
+            </div>
+            <div class="hzfoot1_cs"><a href="/html/about/gyhz/3891.html" rel="nofollow">���ں���</a> &nbsp;|&nbsp; <a href="/html/about/lxwm/3892.html" 
+rel="nofollow">��ϵ����</a> &nbsp;|&nbsp; 
+<a 
+href="/html/tool/" rel="nofollow">��������</a> &nbsp;|&nbsp; <a href="/html/about/zxns/3954.html" rel="nofollow">������ʿ</a> &nbsp;|&nbsp; <a 
+href="/html/about/Statement/4022.html" 
+rel="nofollow">��������</a> &nbsp;|&nbsp; <a 
+href="/html/download/gjj/" rel="nofollow">�����������</a>  &nbsp;|&nbsp; <a href="/html/Mortgage/">��Ѻ���</a> &nbsp;|&nbsp; <a href="/plus/map.asp">��վ��ͼ
+</a></div>
+            <div class="hzfoot2_c">
+                ��ַ�������г�����������240��ͨ������һ��  �绰��010-64997000   24Сʱ������ߣ�400-6656-400<br>
+Copyright&#169;2008�������������Ϣ�������޹�˾  ��ICP��05076337 ������110105014833 
+            </div>
+        </div>
+    </div>
+<div class="fixed-bar">
+                <div class="wide-bar"> 
+                    <a href="javascript:scrollTo(0,0)" class="gotop" title="�ص�����" style="display:none;"><span><font style="font-size:28px;">��</font><br>��
+�ض���</span></a>
+                </div>
+            </div> 
+
+
+ <!--����ͨ-->
+<script language=javascript>
+<!--
+var LiveAutoInvite0='';
+var LiveAutoInvite1='��ҳ';
+var LiveAutoInvite2=' ��վ����ͨ ��Ҫ���ܣ�<br>1����������<br>2����ʱ��ͨ<br>3���鿴��ʱ���ʶ�̬<br>4�����ʹ켣����<br>5���ڲ��Ի�<br>6������װ�κβ��Ҳʵ��˫���ļ�����<br><br><b>��������κ���������ܴ������Կ�ʼ��ʱ��ͨ</b>';
+var LR_showminiDivtimeout=50; 			
+var LrinviteTimeout = 40;   //40����һ���Զ�����
+//-->
+</script>
+<script language="javascript" src="http://dht.zoosnet.net/JS/LsJS.aspx?siteid=DHT17982545&float=1&lng=cn"></script>
+ <!--����ͨ-->
+
+ 
+
+<!--�ٶ�ͳ��-->
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?db142cb12e637cea4e9c54aab691c65d";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script> 
+<!--�ٶ�ͳ��-->
+
+<!--���ض���-->
+    <script type="text/javascript">    
+		$(document).scroll(function(){ 
+			var  scrollTop =  $(document).scrollTop(),bodyHeight = $(window).height(); 
+			if(scrollTop > bodyHeight){ 
+				$('.fixed-bar .gotop').css('display','block');
+			}else{
+				$('.fixed-bar .gotop').css('display','none');
+			} 
+		})
+	</script> 
+	<!--���ض���-->
+           	<div class="fixed-bar">
+                <div class="wide-bar"> 
+                    <a href="javascript:scrollTo(0,0)" class="gotop" title="�ص�����" style="display:none;"><span><font style="font-size:28px;">��</font><br>���ض���</span></a>
+                </div>
+            </div> 
+            <div class="onlytop">  
+                <div style="width:1024px; margin:auto;">
+                    <div style="width:100%; height:70px; float:left; background:#FFF;">
+                        <div style="width:1024px; height:70px; margin:auto;">
+                            <div class="hztop2ns"><img src="../html/images/HZ_images/onlytop.png" />
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+<!--ͣ�ڶ���-->
+    <script type="text/javascript">    
+		$(document).scroll(function(){ 
+			var  scrollTop =  $(document).scrollTop(),bodyHeight = $(window).height(); 
+			if(scrollTop > 210){ 
+				$('.onlytop').css('display','block');
+			}else{
+				$('.onlytop').css('display','none');
+			} 
+		})
+	</script> 
+	<!--ͣ�ڶ���--> 
+        </div>
+    </div> 
+    <!--������������-->
+    <!--<script type="text/javascript" src="../hz_js/jquery-1.4.2.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){	
+			$(".section ul li .rsp").hide();	
+			$(".section	 ul li").hover(function(){
+				$(this).find(".rsp").stop().fadeTo(500,0.5)
+				$(this).find(".text").stop().animate({left:'0'}, {duration: 500})
+			},
+			function(){
+				$(this).find(".rsp").stop().fadeTo(500,0)
+				$(this).find(".text").stop().animate({left:'300'}, {duration: "fast"})
+				$(this).find(".text").animate({left:'-300'}, {duration: 0})
+			});
+		});
+    </script>-->
+    <!--������������-->
+
+	
+    <!--banner�ֻ�--> 
+    <script type="text/javascript" src="../hz_js/jquery-1.11.1.min_044d0927.js"></script>
+	<script type="text/javascript" src="../hz_js/jquery.bxslider_e88acd1b.js"></script>
+    <script type="text/javascript">
+    (function(){
+        $(".bxslider").bxSlider({
+            auto:true,
+            prevSelector:$(".top_slide_wrap .op_prev")[0],nextSelector:$(".top_slide_wrap .op_next")[0]
+        });
+    })();
+    </script>
+    <!--banner�ֻ�-->
+
+</body>
+</html>
+    <!--���ٿ�-->
+    <script>   
+        var chars = ['0','1','2','3','4','5','6','7','8','9','A','B','C','D','E','F'];
+        function generateMixed(n) {
+            var res = "";
+            for(var i = 0; i < n ; i ++) {
+                var id = Math.ceil(Math.random()*16);         
+                res += chars[id];     
+            }     
+            return res;
+		}
+		var num = generateMixed(6);   
+		var p = document.getElementById('ppp')   
+	    p.style.color = "#"+num;
+    </script>
+	<!--���ٿ�-->
+<script src="/ks_inc/ajax.js" type="text/javascript"></script>
+<!-- published at 2016-9-13 9:19:17 publish by HOZE -->

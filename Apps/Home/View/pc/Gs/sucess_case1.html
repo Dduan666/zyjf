@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/zy/js/sucess_case/css.css" />
+		<style type="text/css">
+			.sucess_case_child {
+				width: 100%;
+				height: auto;
+				margin: 20px auto;
+				min-height: 510px;
+			}
+			
+			.sucess_case_con_child {
+				padding: 15px;
+				width: 1200px;
+				height: 100%;
+				margin: 0 auto;
+				background: #ffffff;
+				/*border: 1px solid red;*/
+				box-shadow: 0 0 10px rgb(204, 204, 205);
+			}
+			
+			.sucess_case_child a {
+				color: #333333;
+				margin-left: 10px;
+			}
+			
+			.sucess_case_con_child h3 {
+				text-align: center;
+			}
+			
+			.child_sucess_case_contain {
+				width: 100%;
+				height: auto;
+			}
+			
+			.child_sucess_case_contain .title {
+				margin-bottom: 15px;
+				text-align: center;
+				font-size: 24px;
+				font-weight: bold;
+			}
+			
+			.child_sucess_case_contain .con {
+				line-height: 35px;
+				width: 800px;
+				height: auto;
+				margin: 0 auto;
+				text-indent: 4em;
+				min-height: 300px;
+			}
+			
+			.more_sucess_case {
+				width: 100%;
+				height: 30px;
+			}
+			
+			.more_sucess_case>a {
+				float: right;
+				text-align: center;
+				display: inline-block;
+				width: 120px;
+				height: 30px;
+				line-height: 30px;
+				color: #333333;
+			}
+			.more_sucess_case:hover a{
+				color: #cc9e2c ;
+
+			}
+			.case_yuyue {
+				width: 100%;
+				height: 100px;
+				margin-top: 10px;
+			}
+			.more_sucess_tg{
+				width:800px;
+				margin: 0 auto;
+				height: 30px;
+				font-size: 17px;
+					
+			}
+			.JY1-YUYUE {
+				cursor: pointer;
+				background: #2cb5cd;
+				border-radius: 25px;
+				-webkit-border-radius: 25px;
+				-moz-border-radius: 25px;
+				transition: all 0.5s;
+				width: 150px;
+				height: 50px;
+				margin: 10px auto;
+				color: white;
+				font-size: 22px;
+				text-align: center;
+				line-height: 50px;
+				border: none;
+				margin: 0 auto;
+				
+			}
+			.JY1-YUYUE a{
+				display: inline-block;
+				border-radius: 25px;
+				-webkit-border-radius: 25px;
+				-moz-border-radius: 25px;
+				transition: all 0.5s;
+				width: 150px;
+				height: 50px;
+			    color: #ffffff;	
+			}
+			.JY1-YUYUE:hover {
+				box-shadow: 0px 3px 3px dimgray;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="load_head"></div>
+
+		<div class="sucess_case_child">
+			<div class="sucess_case_con_child">
+				<h4>您当前的位置<a href="{:U('Index/index')}">卓屹金服</a> > 成功案例</h4>
+				<h3>卓屹金服！我们将为您提供最安全的服务！</h3>
+
+				<!--公共部分开始-->
+				<div class="child_sucess_case_contain">
+					<div class="title">{$gg['title']}</div>
+					<div class="con">
+						<div style="text-indent:30px;">{$gg['content']}</div>
+						<div style="text-indent:30px;">{$gg['cont']}</div>
+					</div>
+					<div class="case_yuyue">
+						<div class="more_sucess_tg">
+							本案例由销售<span>
+										<if condition="$gg['bu'] eq 1">
+                                            一部
+                                        <elseif condition="$gg['bu'] eq 3" />
+                                            三部
+                                        <elseif condition="$gg['bu'] eq 4" />
+                                            四部
+                                        <elseif condition="$gg['bu'] eq 5" />
+                                            五部
+                                        <elseif condition="$gg['bu'] eq 6" />
+                                            六部
+                                        <elseif condition="$gg['bu'] eq 7" />
+                                            七部
+                                        <elseif condition="$gg['bu'] eq 8" />
+                                            八部
+                                        <elseif condition="$gg['bu'] eq 9" />
+                                            九部
+                                        <elseif condition="$gg['bu'] eq 10" />
+                                            十部
+                                        <elseif condition="$gg['bu'] eq 11" />
+                                            十一部
+                                        </if>
+                                    </span>提供
+						</div>
+						<a href="{:U('Jy/daishenqing',array('bu'=>$gg['bu']))}"><div class="JY1-YUYUE">预约贷款</div></a>
+					</div>
+				</div>
+
+				<div class="more_sucess_case">
+					<a href="{:U('Gs/company_case')}">更多>></a>
+				</div>
+				<!--公共部分开始-->
+			</div>
+		</div>
+
+		<div class="clear"></div>
+		<div class="load_foot"></div>
+	</body>
+
+</html>
+<script src="__PUBLIC__/zy/js/zyjf.js" type="text/javascript"></script>
+
+<!--页面跟踪-->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-85930367-2', 'auto');
+  ga('send', 'pageview');
+
+</script>

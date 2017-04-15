@@ -1,0 +1,23 @@
+
+/*页码*/
+.pagemargin{margin:58px 0 68px;}
+.productPage{clear:both;height:40px;text-align:center;font-size:14px;line-height:36px}
+.productPage a,.productPage span{display:inline-block;color:#363636;border:1px solid #b6b6b6;padding:0 15px;text-decoration:none; margin: 0 2px;}
+.productPage .disUse{color:#1e1e1e;background:#f5f5f5;width:90px;height:36px;}
+.productPage a.pageCurrent{background:#4FC3AE;color:#fff;border-color:#4FC3AE;}
+.productPage a:hover{background:#4FC3AE;color:#fff;border-color:#4FC3AE}
+.productPage span.current{
+	border:1px solid #4FC3AE!important;
+	background:#4FC3AE;color: #FFFFFF;
+}
+.productPage a:hover{border:1px solid #4FC3AE!important;
+    background:#4FC3AE!important;color: #FFFFFF!important;
+}
+
+
+
+
+
+
+
+

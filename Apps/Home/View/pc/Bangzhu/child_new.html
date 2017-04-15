@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" />
+		<title>卓屹金服</title>
+		<style type="text/css">
+		.zyjf_child_new a{
+			color: #333333!important;
+		}
+		.zyjf_child_new{width:1100px;height:auto;margin: 20px auto 0;
+		}	
+		.zyjf_child_new_con{width: 1100px;height: 100%;margin: 20px auto 40px;padding: 10px 50px;box-shadow: 0px 0px 10px rgb(204, 204, 204);min-height: 450px;background: #ffffff;}
+		.child_new_box{width:100%;height: auto;margin: 0 auto;}
+		.child_new_box>h3{
+			text-align: center;
+		}
+		.child_new_box>div{
+			text-align: center;
+		}
+		.child_new_box>p{
+			text-indent: 2em;margin: 15px 0;
+		}
+		</style>
+	</head>
+	<body>
+		<div class="zyjf_child_new">
+			<div style="margin-bottom: 15px;"><a href="{:U('Index/index')}">卓屹金服</a>
+				<span> > </span><span class="new_wwl_page">{$data['title']}</span>
+			</div>	
+		<div class="zyjf_child_new_con">
+			
+		<!--新闻页内容-->
+		<div class="child_new_box">
+			<h3 class="new_title">{$data['title']}</h3>
+			<div>{$data['tit']}</div>
+			<div>
+				<if condition="$data.pic neq null">
+					<img src="__PUBLIC__{$data.pic}">
+				</if>
+			</div>
+			<div>
+			&nbsp;&nbsp;&nbsp;&nbsp;{$data['content']}
+			</div>
+			<div>
+				<if condition="$data.vpic neq null">
+					<img src="__PUBLIC__{$data.vpic}">
+				</if>
+			</div>
+			
+		</div>
+		<!--新闻页内容-->
+		</div>	
+		</div>
+
+
+	</body>
+</html>
+<script src="__PUBLIC__/zy/js/zyjf.js" type="text/javascript" charset="utf-8"></script>
+
+<!--页面跟踪-->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-85930367-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
+

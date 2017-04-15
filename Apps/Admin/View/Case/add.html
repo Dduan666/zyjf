@@ -1,0 +1,108 @@
+<!-- <extend name="Index/index" /> -->
+<include file="Index/index" />
+<block name="wrapper">
+
+    <div class="content-wrapper">
+        <!-- Content Header (Page header) -->
+        <section class="content-header">
+            <h1>
+                案例管理
+                <small>这是后台的案例管理添加页面</small>
+            </h1>
+            <ol class="breadcrumb">
+                <li><a href="#"><i class="fa fa-dashboard"></i> 案例管理</a></li>
+                <li class="active">案例添加</li>
+            </ol>
+        </section>
+        
+        <!-- Main content -->
+        <section class="content">
+       
+            <div class="row">
+                <!-- left column -->
+                <div class="col-md-12">
+                    <!-- general form elements -->
+                    <div class="box box-primary">
+                        <div class="box-header with-border">
+                            <h3 class="box-title">案例添加</h3>
+                        </div><!-- /.box-header -->
+                        <!-- form start -->
+                        
+                        <form role="form" action="{:U('Admin/Case/insert')}" method="post" enctype="multipart/form-data" name="form11" onSubmit="return Length()">
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">状态</label>
+                                <select name="bu" class="form-control" id="exampleInputEmail1"  >
+                                    <option value="1">一部</option>
+                                    <option value="3">三部</option>
+                                    <option value="4">四部</option>
+                                    <option value="5">五部</option>
+                                    <option value="6">六部</option>
+                                    <option value="7">七部</option>
+                                    <option value="8">八部</option>
+                                    <option value="9">九部</option>
+                                    <option value="10">十部</option>
+                                    <option value="11">十一部</option>
+                                    
+                                </select>
+                            </div>
+                            <div class="box-body">
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">标题</label>
+                                    <input type="text" name="title" class="form-control" value="" id="exampleInputEmail1"
+                                           placeholder="请输入案例标题">
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="exampleInputPassword1">内容</label>
+                                    <textarea type="text" name="content" class="form-control" rows="5" id="exampleInputPassword1"
+                                           placeholder="请输入案例内容"></textarea>
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">第二段内容</label>
+                                    <textarea type="text" name="cont" class="form-control" rows="5" value="" id="exampleInputEmail1"
+                                           placeholder="请输入第二段内容"></textarea>
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">时间</label>
+                                    <input type="date" name="time" class="form-control" value="" id="exampleInputEmail1"
+                                           placeholder="">
+                                </div>
+                                
+                            </div><!-- /.box-body -->
+
+                            <div class="box-footer">
+                                <button type="submit" class="btn btn-primary">添加</button>
+                                <button type="reset" class="btn btn-primary">重置</button>
+                            </div>
+                        </form>
+                    </div><!-- /.box -->
+                </div><!--/.col (left) -->
+                <!-- right column -->
+                <div class="col-md-6">   
+                </div><!--/.col (right) -->
+            </div>   <!-- /.row -->
+        </section><!-- /.content -->
+    </div>
+<script>
+    function Length(){
+        var title = document.form11.title.value;
+        var content = document.form11.content.value;
+        var time = document.form11.time.value;
+
+        if(title == "")
+        {
+            alert('标题不能为空');
+            return false;
+        }else if(content == ""){
+            alert('内容不能为空');
+            return false;
+        }else if(time == ""){
+            alert('请填写时间');
+            return false;
+        }else{
+            alert('添加成功');
+            return true;
+        }
+    }
+</script>
+</block>

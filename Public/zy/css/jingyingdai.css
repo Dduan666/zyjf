@@ -1,0 +1,181 @@
+
+.jingyingdai{
+width: 100%;height: auto;	font-weight: 20px;
+}
+.JY_title_1{
+	font-size:24px;
+	text-align: center;line-height: 50px;font-weight: 900!important;
+}
+.jingyingdai_con{
+width:1200px;margin: 20px auto;padding: 20px;
+}
+.bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn){ 
+	width:120px!important;height:40px!important;}
+.JY-toubu{font-size:15px;font-weight: 600;text-align: center;
+	font-family:'youyuanregular'!important ;
+	width: 100%;height: 35px;margin-bottom:20px;line-height: 35px;
+}
+.JY-toubu>a{
+	text-decoration: none;color: #333333;
+}
+.JY_child_one_right{padding: 40px 0 0;
+	float:left;
+	width:290px;height:auto;
+
+}
+.JY_child_one_right {
+    box-shadow: 0 0 10px rgb(204, 204, 204);
+    float:left;
+        background: #FFFFFF;
+    width:290px;
+}
+.JY_child_one_right>.tab_dhf{box-shadow: 0 0 10px rgb(205,205,204);
+width:190px;height:70px;text-align: center;line-height: 70px;margin: 10px auto;cursor: pointer;color: #cd9d2c;font-family:'youyuanregular'!important;font-size: 26px;transition: all 1s;
+}
+.JY_child_one_right>.tab_dhf:hover{
+color:#FFFFFF!important;background:#cd9c2d!important;}
+
+
+.JY_child_one_right_active{
+	background:#cd9d2c;color:#FFFFFF!important;
+}
+.JY_child_one_left{
+    float:right;
+    padding: 0px 10px;
+    width:850px;
+
+}
+/*边框问题*/
+.JY_child_one_left .table tr > td {
+    border:none;
+}
+.table_bor{font-size:15px;
+
+}
+.JY_table_tog{
+	font-size:15px;
+
+}
+/*边框问题*/
+/*对格式的修改方面*/
+.biaoti_dhf{font-size:17px;font-weight: 600;
+	width: 140px;
+}
+.biaoti_dhf_2{font-size:17px;font-weight: 600;
+	width: 140px;
+}
+.waibao_dhf{padding: 20px 20px;margin-bottom: 20px;
+box-shadow: 0 0 10px rgb(204, 204, 204);
+    background: #FFFFFF;	
+}
+.shenyue{
+line-height: 30px;font-weight: bold;
+}
+.zhidian{
+	font-size: 23px;font-weight: bold;
+}
+/*对格式的修改方面*/
+.JY_table_tog{
+	/*border: 1px solid #DDDDDD;*/
+}
+.JY_down_up {
+	cursor: pointer;
+	width:40px;
+	height: 40px;
+    margin:40px auto;
+}
+
+.JY_down_up_cen {
+	overflow: hidden;
+	width: 40px;
+	height: 38px;
+/*margin:20px auto;*/
+}
+.JY_tubiao_down_up {
+	float: left;
+	transition: all 1s;
+	font-size: 26px;
+	width: 40px;
+	height: 32px;
+/*	margin-left: 5px;*/
+}
+.JY_tubiao_down_up>img{
+	width: 100%;height: 100%;
+}
+.JY_tubiao_ro {transform-origin:50% 50%;
+	transform: rotateZ(180deg);
+}
+.JY_table_tog{
+	display: none;
+}
+.jingyingdai_jisuan{
+/*	font-family:'youyuanregular'!important ;*/
+	width: 100%;height: auto;font-weight: 600;
+}
+
+.jingyingdai_jisuan>h2{color:#5d5d5d;text-align: center;}
+.jingyingdai_jisuan>.small_title{color:#949796;text-align: center;}
+.JY_1_jsq {
+	width:490px;/*border: 1px solid;*/
+	height: 50px;margin: 20px auto 0;line-height: 50px;
+}
+.JY_1_jsq>div{font-size: 22px;height: 100%;
+}
+.loan_money{
+	width: 65%;float: left;
+}
+.loan_money1{float: right;
+	width: 35%;
+}
+.loan_money1>input{height:35px;line-height: 35px;
+	border: 1px solid #DDDDDF;
+	width:70%;display: inline-block;
+	border-radius: 6px;-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	padding-left: 10px;
+}
+.JY_1_jsq select{
+border: 1px solid gray;
+width:70%;height: 100%;
+}
+.JY_jisuan {cursor: pointer;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 50px;
+	font-size: 21px;
+	width: 150px;
+	height: 50px;
+	background:#2cb5cd;
+	border-radius:25px;
+	-moz-border-radius:25px;
+	-webkit-border-radius:25px;
+	margin: 20px auto;
+	transition:all 0.5s;
+}
+.JY_jisuan:hover{
+box-shadow: 0px 0px 3px dimgray;	
+}
+.JY_result{display: none;text-align: center;
+	width: 100%;/*border: 1px solid;*/
+}
+.JY_result>h2{
+	color: #595959;
+}
+.JY1-YUYUE{cursor: pointer;background:#2cb5cd;border-radius: 25px;-webkit-border-radius:25px;-moz-border-radius: 25px;transition:all 0.5s;width:150px;height: 50px;margin: 10px auto;color:white;font-size: 22px;text-align: center;border: none;
+	line-height: 50px;
+}
+.JY1-YUYUE:hover{
+box-shadow: 0px 3px 3px dimgray;
+}
+.green_h{
+	color: green!important;
+}
+.loading_a{top: 0px;left: 0px;display: none;z-index: 101;
+	position: absolute;width:1920px;height:auto;opacity: 0.8;filter:alpha(opacity=80);margin: auto auto;
+}
+.loading_img{left: 50%;margin-left: -62px;margin-top: -62px;
+	width:124px;height: 124px;position: absolute;top: 50%;
+}
+.loading_img>img{
+height: 100%;	width: 100%;
+}

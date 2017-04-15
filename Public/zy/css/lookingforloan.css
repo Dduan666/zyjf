@@ -1,0 +1,262 @@
+.looking_for_loan{
+	width: 100%; height: 1400px;;
+}
+.looking_for_loan_con{
+	width: 1024px; height: 100%;margin: 0 auto; 
+}
+.looking_loan_details{
+	width: 100%; height: 1240px; overflow: hidden;border: 1px solid red;
+}
+.loan_details_left{
+	float: left;width: 800px; height: 100%;
+}
+.loan_details_right{padding-bottom: 15px;padding-top: 15px;
+	width: 200px; float: right;
+}
+.loan_details_left_1{
+	width: 100%; height: 50px;
+}
+.loan-title {
+	width: 100%;
+    margin-bottom: 25px;
+    position: relative;
+}
+.loan-title h3 {
+    background: rgba(0, 0, 0, 0) url(../img/loan-title-bg.png) no-repeat scroll 0 0;
+    font-size: 24px;
+    height: 50px;
+    line-height: 46px;
+    margin: 0 auto 20px;
+    position: relative;
+    text-align: center;
+    width: 176px;
+    z-index: 2;
+}
+
+.loan-title hr {
+    background-color: #ccc;
+    border: 0 none;
+    display: block;
+    height: 1px;
+    left: 0;
+    position: absolute;
+    top:25px;
+    width: 100%;
+}
+.loan_details_left_2{/*border: 1px solid;*/
+	width: 100%; height: 250px;margin-top: 10px;
+}
+.loan_details_left_2>div{
+	box-shadow:0 0 10px rgb(204, 204, 204);
+	width: 22%; height:100% ; float: left;
+margin:0px 1.3%;}
+.loan_details_left_2>div:hover{
+	border: 1px solid #6EAC00;
+}
+.loan_details_left_2>div>p{
+font-size: 16px;
+    line-height: 24px;
+    margin: 0 18px;
+}
+.load_top_icon{
+	width: 100%; height: 56px;overflow: hidden;
+}
+.looking_a{
+background:#0b93c5;	
+}
+.looking_b{
+background:#6eac00;	
+}
+.looking_c{
+background:#09adc6;	
+}
+.looking_d{
+background:#2f87d8;	
+}
+.looking_f{
+background:#859bb3;
+}
+.looking_g{height: 80px!important;
+/*background:#859bb3;*/color: black!important;
+}
+.wenzi-loan{
+	color:#333333!important;
+}
+.load_top_icon1{ background: rgba(0, 0, 0, 0) url(../img/load_icon.png) no-repeat scroll 0 0;
+    float: left;
+    left: 10px;
+    margin-right: 10px;
+    position: relative;
+    top: 0px;
+	width: 56px; height: 56px;
+}
+.icon1{
+ background-position: 0 0;
+   
+  
+}
+.icon2{
+ background-position: -56px 0;
+   
+  
+}
+.icon3{
+ background-position: -112px 0;
+   
+  
+}
+.icon4{
+ background-position: -168px 0;
+   
+  
+}
+
+.icon01{
+ background-position: -56px -168px;
+   
+  
+}
+.icon02{
+ background-position: -112px -168px;
+   
+  
+}
+.icon03{
+ background-position: -0px -168px;
+   
+  
+}
+.icon04{
+ background-position:-168px -168px;
+   
+  
+}
+.icon11{
+ background-position: -168px -56px;
+   
+  
+}
+.icon12{
+ background-position: -56px -56px;
+   
+  
+}
+.icon13{
+ background-position: -112px -56px;
+   
+  
+}
+.icon14{
+ background-position:0px -56px;
+   
+  
+}
+.icon21{
+ background-position: 0 -112px;
+   
+  
+}
+.icon22{
+ background-position: -56px -112px;
+   
+  
+}
+.icon23{
+ background-position: -112px -112px;
+   
+  
+}
+.icon24{
+ background-position: -168px -112px;
+   
+  
+}
+
+.load_top_icona {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    left:0px;
+    line-height: 24px;
+    position: relative;
+    top: 20px;
+}
+
+.loan-btn-apply {
+    background-color: #eee;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    color: #333;
+    display: block;
+    font-size: 16px;
+    height: 30px;
+    line-height: 28px;
+    margin: 20px auto 0;
+    text-align: center;
+    width: 120px;
+}
+.mt30{
+	margin-top: 30px!important;
+}
+.loan_details_left_2 h6{
+	margin: 0 15px 18px;
+}
+h6>a{color: #666;text-decoration: none;
+	font-size: 18px;font-weight: bold;text-align: center;
+}
+h6>a:hover{
+	color: #333;
+}
+.ppp_wwl{
+	font-size: 16px;line-height: 24px; margin: 0 18px;
+}
+.loan_details_left_3{/*border: 1px solid;*/
+	width: 100%; height: 200px;margin-top: 10px;margin-bottom: 15px;
+}
+.loan_details_left_3>div{
+	box-shadow:0 0 10px rgb(204, 204, 204);
+	width: 22%; height:100% ; float: left;
+margin:0px 1.3%;}
+.loan_details_left_3>div:hover{
+	border: 1px solid #6EAC00;
+}
+.loan_details_right{
+background: #fff none repeat scroll 0 0;
+    border: 1px solid #dddddd;
+   
+   
+}
+.loan_details_right .title{
+    background-color: #eee;
+    height: 50px;
+    padding: 0 20px;
+    line-height: -50px;}
+    
+.loan_details_right .title a {
+    font-size: 14px;
+    left: 125px;
+    position: relative;
+    top: -20px;
+     color: #666;
+    outline: medium none;
+    text-decoration: none;
+}
+
+.loan_details_right .item .info {
+    left: 100px;
+    margin-left: 5px;
+    position: absolute;
+    top: 10px;
+}
+.loan_details_right .item .avatar {
+    border: 1px solid #ddd;
+    height: 86px;
+    margin-top: 25px;
+    width: 86px;
+}
+.loan_details_right .item {
+    position: relative;
+}
+.star-more{margin-top: 15px;
+	width: 100%; height: 50px;line-height: 50px;text-align: center;background:#eee ;
+}

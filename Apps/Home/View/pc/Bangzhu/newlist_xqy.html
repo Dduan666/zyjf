@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+		   *,input{
+		   margin: 0;padding: 0;
+		  }
+		   .abjt{position: relative;z-index: -1;
+		    width: 1422px;margin: 0 auto;
+		   }
+		   .abjt>img{
+		    width: 100%;
+		   }
+		   .newxqy_big{
+		    width: 100%;min-width: 1422px;margin: 0 auto;
+		   }
+		   .newlist_start{
+		    width:1200px;margin: 0 auto;
+		   }
+		   .newlist_start_title a,.newlist_start_title span{
+		    line-height: 60px;
+		   color:#666666 ;font-size: 14px;text-decoration: none; 
+		   }
+		   .newlist_detail{
+		    box-shadow: 0 0 10px #D5D5D5;
+		    width:100%;box-sizing: border-box;
+		    padding:40px 50px;
+		   }
+		   .newlist_Title{
+		    text-align: center;font-size: 24px;color:#4FC3AE;
+		   }
+		   .newlist_laiyuan{
+		    letter-spacing:1px;
+		    line-height:80px;
+		    font-size: 13px;color: #999999;
+		    border-bottom: 1px dashed #CD9C2D;
+		   }
+		   .xinwen_Start{
+		    padding: 20px 0 0;line-height: 35px;
+		   }
+  		</style>
+	</head>
+	<body>
+		<div class="abjt">
+			<img src="__PUBLIC__/zy/img/new_list.png"/>
+		</div>
+		<div class="newxqy_big">
+			<div class="newlist_start">
+				<div class="newlist_start_title">
+					<!-- <a href="{:U('Index/index')}">卓屹金服</a> > <span>新闻中心</span> -->
+				</div>
+				<div class="newlist_detail">
+					<div class="newlist_Title">{$data['title']} </div>
+					<div>{$data['tit']}</div>
+				<!-- <div class="newlist_laiyuan">来源: <span>王石石石</span> 作者:<span>苦奋斗</span>日期: <span>2012/12/12</span></div> -->
+				
+				<div class="xinwen_Start">
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{$data['content']}
+				</div>
+				
+				</div>
+
+			</div>
+			
+		</div>
+	</body>
+</html>

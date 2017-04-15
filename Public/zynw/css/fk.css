@@ -1,0 +1,50 @@
+
+.new_xiu{	color: #1bbc9c;
+	padding: 20px 10px;box-sizing: border-box;
+	width:100%;background:#e0e5e7 ;
+}
+.new_title{line-height: 30px;
+	border-bottom: 1px solid #D4D4D4;
+}
+.span_fenl{display: inline-block;
+	line-height: 40px;width: 80px;
+}
+.guize{
+	margin-bottom:30px;
+}
+
+.select_conmmon{display: inline-block;
+	color: #333333;width:220px;height: 30px;
+}
+.input_conmmon{
+	display: inline-block;
+	color: #333333;width:110px;height: 30px;
+}
+.guize>label{
+	color: #333333;font-weight: normal!important;font-size: 14px;
+}
+.submit_fl{
+	cursor: pointer;border: 1px solid #1BBC9C;
+	text-align: center;display: inline-block;
+	background: #1bbc9c;color:#FFFFFF;width: 100px;line-height:35px ;
+}
+
+.submit_fl:hover{
+border: 1px solid #1BBC9C;color: #1BBC9C;background: #FFFFFF;	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

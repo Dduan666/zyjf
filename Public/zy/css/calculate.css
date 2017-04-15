@@ -1,0 +1,219 @@
+
+.calculator{/*min-height: 500px;*/
+	width: 100%;height: auto;overflow: hidden;
+}
+.calculator_con{height: auto;
+	width: 970px;margin: 20px auto 0;box-shadow: 0px 0px 10px rgb(204, 204, 204);
+}
+.calculate_start{
+	width: 100%;
+}
+.errotishi,.errotishi2,.errotishi3,.errotishi4{display: none;
+	color:red;
+}
+.calculate_tree{/*border: 1px solid;*/
+	width: 200px;height: 100%;float: left;margin: 0px 0;
+}
+.calculate_tree>ul{
+	width: 100%;list-style: none;margin: 0px;padding: 0px;
+}
+.calculate_tree>ul>li{cursor: pointer;background:#FFFFFF;
+	width: 100%;height: 50px;line-height: 50px;
+}
+.GL_JSQ{
+	background:#e5e5eb!important;color: #333333;
+}
+.calculate_tree_sponde{/*border: 1px solid;*/
+	width: 680px;height: 100%; float:left;/*background: #e5e5eb ;*/
+}
+.calculate_tree_sponde1{
+	width: 680px;height: 100%; float: right;	
+}
+.nianlilv_one,.nianlilv_two,.nianlilv_three,.nianlilv_four{
+	width: 80px;height: 30px;border: 1px solid darkgrey;
+}
+.calculate_sponde_a:after{
+content: "." ;
+display: block ;
+height: 0 ;
+clear: both ;
+visibility: hidden ;
+}
+.calculate_title{
+	width:350px;height: 45px;
+	color: #434343;line-height: 45px;font-size: 18px;
+}
+.jisuan{
+width: 100%; border-top: 2px solid gray;
+}
+.alert_tix{
+	color: red;height:40px;line-height:40px;
+}
+.tr_td1{
+	width: 290px;height: 30px;line-height: 30px;
+}
+.tr_td3{
+	width: 200px;height: 30px;line-height: 30px;
+}
+.tr_td2{margin-bottom: 20px!important;
+	width: 300px;height: 30px;line-height: 30px;
+}
+.select_tr{
+	width:250px;height: 30px;
+}
+.select_tr2{
+	width:250px;height: 30px;
+}
+.select_tr3{
+	width:250px;height: 30px;
+}
+.select_tr4{
+	width:250px;height: 30px;
+}
+.nianlilv{
+	width:150px;height: 40px ;display: inline-block;
+}
+#wlei,#dhf{
+margin: 0 10px;	color: black;
+}
+label{
+	font-weight: 500!important;
+}
+.Wdate{
+	width: 120px;height: 30px!important;
+}
+.total_lixi{text-align: left!important;
+	width: 100%;height: 40px;margin: 20px 0;border: 1px solid;
+}
+.total_lixi span{
+	color: red;
+}
+.nian_imput{margin-left: 5px;
+	width: 50px;display: inline-block;
+}
+.xianshi_result,.xianshi_result2,.xianshi_result3,.xianshi_result4{text-align: center;display: none;
+	width: 100%;height:auto;/*border: 1px solid;*/
+}
+.YY_yuyue{cursor: pointer;background: red;border-radius: 10px;-webkit-border-radius: 10px;-moz-border-radius: 10px;transition:all 0.5s;
+	width:130px;height: 50px;margin: 10px auto;color:white;font-size: 22px;text-align: center;line-height: 50px;
+}
+.tel_dianhua{
+	font-size: 17px;color: red;
+}
+.YY_yuyue:hover{border: 1px solid red;
+box-shadow: 0px 3px 3px dimgray;
+}
+.green_h{color: green;
+}
+.zy_jiesuan{border-radius: 6px;transition:all 0.5s;
+	width: 150px;height: 40px;background: red;margin: 20px auto;text-align: center;line-height: 40px;color: white;font-size: 20px;cursor: pointer;
+}
+.zy_jiesuan:hover{border: 1px solid red;
+	box-shadow: 0px 2px 2px dimgray;
+}
+.jisuan_a{background: red; margin: 0 auto;cursor: pointer;color: white;font-size: 18px;
+	width:200px!important; height: 100%; line-height: 40px;text-align: center;
+}
+.clear_a{margin: 0 auto;cursor: pointer;color: white;font-size: 18px;
+background: #cfcfd0 none repeat scroll 0 0;	width:200px!important; height: 100%; line-height: 40px;text-align: center;
+}
+.calculate_title_result{margin: 20px 0;
+width:100%;height: 45px;border-bottom: 2px solid gray;
+	color: #434343;line-height: 45px;font-size: 19px;	
+}
+.two_table{
+	width: 100%; height: 300px;/*border: 1px  solid yellow;*/
+}
+.two_table>div{
+width:300px;	
+}
+.two_table1{
+	float: left;
+}
+.two_table2{
+	float: right;
+}
+.table_res{margin-top: 15px;
+	border-right:1px solid;border-bottom: 1px solid;
+}
+.table_res td{height: 40px;
+border-left:1px solid;border-top: 1px solid;	
+}
+.san_result{
+	width: 100%;
+}
+.san_result>div{float: left;
+	width: 200px;margin: 10px 7px;
+}
+.diyihang{height: 40px;line-height: 40px;
+	width: 90%; margin: 10px 5%;
+}
+.diyihang label{
+	font-weight: 100!important;
+}
+.diyihangxia{height: 40px;line-height: 40px;
+	width: 90%; margin: 20px 5%;
+}
+.diyihangxia>.diyi_wwl{	display: inline-block;text-align: center;
+	width: 200px; height: 40px;color: white;line-height: 40px;
+}
+.diyihangxia>.nei{background: red;
+margin: 0px 20px;cursor: pointer;
+}
+.diyihangxia>.wai{background: grey;
+margin: 0px 20px;cursor: pointer;
+}
+.calculate_re{
+	width: 100%; height: 40px; line-height: 40px;border-bottom: 2px solid grey;
+}
+.biaoge-ww{
+	margin: 10px 0;
+}
+.hz_jsq_cr_n5 {
+    border: 1px solid #e5e5eb;
+    color: #656565;
+    float: left;
+    font-size: 14px;
+    height: auto;
+    line-height: 24px;
+    
+    margin-top: 20px;
+    padding: 10px;
+    width: 663px;
+}
+.before_huan{height: 40px;line-height: 40px;/*border:1px solid yellow;*/
+	width: 90%; margin: 15px 5%;
+}
+.before_huan>label{
+	font-weight: 100;
+}
+.time_wwl{
+	width: 150px;border:solid 1px #D3D3D3; font-size:14px; color:#777777; height: 32px;
+}
+
+.hz_jsq_cr_n3 {margin-top: 20px;
+    float: left;
+    margin-left:20px;
+    width: 590px;
+}
+.hz_wz {
+    color: #434343;
+    font-size: 16px;
+    height: 38px;
+    line-height: 38px;
+}
+.gerengz{
+width: 90%; margin: 40px 5%;	
+}
+
+.two_table_zy{
+	width: 100%;
+}
+
+
+
+
+
+
+
+

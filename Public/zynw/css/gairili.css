@@ -1,0 +1,29 @@
+.view-date{
+	width: 280px!important;
+}
+.calendar-ct,.calendar{
+	width: 280px!important;
+}
+.calendar .calendar-d{
+	width: 280px!important;
+}
+.date-items>li{
+	width: 280px!important;
+}
+.calendar-ct{
+	width: 280px!important;
+}
+ol.week>li{
+	height:40px!important ;
+	width:40px!important ;
+	line-height: 40px!important;
+}
+ol.days>li{
+	width:40px!important ;
+	height:40px!important ;
+	line-height: 40px!important;
+}
+.date-items>li{
+	width:280px!important;
+	
+}
